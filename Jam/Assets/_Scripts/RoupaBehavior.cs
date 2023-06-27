@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RoupaBehavior : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class RoupaBehavior : MonoBehaviour
 
     private void Start()
     {
-        //var sr = gameObject.GetComponent<SpriteRenderer>();
-        //sr.sprite = roupaItem.sprite;
+        var imageComponent = gameObject.GetComponent<Image>();
+        imageComponent.sprite = roupaItem.sprite;
     }
 }

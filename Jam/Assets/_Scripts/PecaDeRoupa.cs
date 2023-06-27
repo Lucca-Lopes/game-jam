@@ -8,13 +8,15 @@ public class PecaDeRoupa : ScriptableObject
     public enum Tipo
     {
         Cabeca,
-        Corpo,
+        Torso,
+        Pernas,
+        Pes,
         Mao
     }
 
     public Tipo tipo;
     public Sprite sprite;
-    public double custo;
+    public int custo;
     public int ataque;
     public int defesa;
     public int conforto;
