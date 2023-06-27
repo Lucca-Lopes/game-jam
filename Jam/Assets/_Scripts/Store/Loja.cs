@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[System.Serializable]
 public class Loja : MonoBehaviour
 {
     [SerializeField]
@@ -22,15 +23,24 @@ public class Loja : MonoBehaviour
         //Item comprado
     }
 
-    public void SelecionarItem(){
-        //Mudar de item selecionado
+    //Receber Index dos items selecionados
+    public void SelecionarItem(int i){
         
+        itemSelecionado = i;
+
+        foreach(GameObject item in Items){
+            if(item.GetComponent<Items>().Index != itemSelecionado){
+                //Desativar outline
+            }
+        }
     }
 
     public void GerarItems(){
         for(int i = 0; i < pecaDeRoupas.Length; i++){
             Items[i] = Instantiate(itemPrefab, Grid);
             Items[i].GetComponent<Items>().AtualizarItem(pecaDeRoupas[i]);
+            //Indexar cada Item na loja 
+            Items[i].GetComponent<Items>().Index = i;
         }
     }
 }
