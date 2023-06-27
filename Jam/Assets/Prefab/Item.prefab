@@ -164,7 +164,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8467050534056239246}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4137857346938664129}
+        m_TargetAssemblyTypeName: Items, Assembly-CSharp
+        m_MethodName: ItemSelecionado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &782500191194268233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -215,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShowMaskGraphic: 0
+  m_ShowMaskGraphic: 1
 --- !u!1 &5820251631139827773
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,5 +641,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e693b8f2ca9075c4c80f4d0a7a379de7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loja: {fileID: 0}
+  Index: 0
   image: {fileID: 5820251631834625380}
   precoText: {fileID: 5820251631441045633}
+  selecionado: {fileID: 4440887213035474523}
