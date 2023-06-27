@@ -5,7 +5,7 @@ using UnityEngine;
 public class JuradosManager : MonoBehaviour
 {
     public List<Jurado> juradosDisponiveis;
-    List<Jurado> juradosAtuais;
+    [HideInInspector] public List<Jurado> juradosAtuais;
 
     [SerializeField] double modFavorito;
     [SerializeField] double modOdiado;
