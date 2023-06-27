@@ -14,9 +14,13 @@ public class PecaDeRoupa : ScriptableObject
         Mao
     }
 
+
+    [Header("Properiedades")]
     public Tipo tipo;
     public Sprite sprite;
     public int custo;
+
+    [Header("Status")]
     public int ataque;
     public int defesa;
     public int conforto;
