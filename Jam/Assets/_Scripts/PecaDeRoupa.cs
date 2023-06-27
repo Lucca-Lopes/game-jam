@@ -19,6 +19,7 @@ public class PecaDeRoupa : ScriptableObject
     public Tipo tipo;
     public Sprite sprite;
     public int custo;
+    public bool itemComprado = false;
 
     [Header("Status")]
     public int ataque;

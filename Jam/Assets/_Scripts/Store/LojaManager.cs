@@ -1,20 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class LojaManager : MonoBehaviour {
-    public GameObject lojaAtual;
-    public GameObject botaoAntecessor;
-    public GameObject botaoSucessor;
-    public GameObject[] lojas;
+    public LojaWindow[] lojas;
+    public int lojaAtual = 0;
+    public Button botao;
+    public Button botaoSucessor;
 
-    public void Sucessor(GameObject loja){
-        lojaAtual.SetActive(false);
-        loja.SetActive(true);
-        lojaAtual = loja;
+
+    private void Start() {
+        CheckWindow();
     }
 
-    public void Antecessor(GameObject loja){
-        
+    private void CheckWindow() {
+        botao.interactable = (lojaAtual > 0);
+        botaoSucessor.interactable = (lojaAtual < lojas.Length - 1);
     }
+
+    public void MudarLoja(int i){
+        lojas[lojaAtual].lojaGameobject.SetActive(false);
+        lojaAtual += i;
+        lojas[lojaAtual].lojaGameobject.SetActive(true);
+        CheckWindow();
+    }
+
+}
+
+[System.Serializable]
+public struct LojaWindow {
+    public string nome;
+    public int ordem;
+    public GameObject lojaGameobject;
 }
