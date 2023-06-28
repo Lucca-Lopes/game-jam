@@ -32,7 +32,8 @@ public class Items : MonoBehaviour {
     public void ItemSelecionado(){
         //Pegar lista de lojas no game manager, depois pegar script loja e selecionar o item
 
-        if(Index == Loja.itemSelecionado){
+        if(Index == 
+        manager.GetComponent<GameManager>().GameObjectLojas[lojaIndex].GetComponent<Loja>().itemSelecionado){
             Debug.Log("Fechar");
             manager.GetComponent<GameManager>().GameObjectLojas[lojaIndex].GetComponent<Loja>().SelecionarItem(-1);
             manager.GetComponent<GameManager>().StatsWindow.SetActive(false);

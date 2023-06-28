@@ -5,11 +5,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [Header("Todas as peças de roupas disponíveis no jogo")]
-    [SerializeField] List<PecaDeRoupa> todasCabecas;
-    [SerializeField] List<PecaDeRoupa> todasTorsos;
-    [SerializeField] List<PecaDeRoupa> todasPernas;
-    [SerializeField] List<PecaDeRoupa> todasPes;
-    [SerializeField] List<PecaDeRoupa> todasMaos;
+    [SerializeField] public List<PecaDeRoupa> todasCabecas;
+    [SerializeField] public List<PecaDeRoupa> todasTorsos;
+    [SerializeField] public List<PecaDeRoupa> todasPernas;
+    [SerializeField] public List<PecaDeRoupa> todasPes;
+    [SerializeField] public List<PecaDeRoupa> todasMaos;
 
     [Header("Nomes possíveis para os oponentes")]
     [SerializeField] List<string> nomesOponentes;

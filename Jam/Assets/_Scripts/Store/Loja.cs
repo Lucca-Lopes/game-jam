@@ -15,7 +15,7 @@ public class Loja : MonoBehaviour
     public Transform Grid;
 
     [Header("Item Selecionado")]
-    public static int itemSelecionado = -1;
+    public int itemSelecionado = -1;
 
     [Header("Botao Comprar/Equipar")]
     public GameObject Comprar_GM;
