@@ -1870,6 +1870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 286401256}
   - component: {fileID: 286401257}
+  - component: {fileID: 286401258}
   m_Layer: 5
   m_Name: Oponente
   m_TagString: Untagged
@@ -1913,6 +1914,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286401255}
   m_CullTransparentMesh: 1
+--- !u!114 &286401258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286401255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd52afa778f0449b9b3fad5e91522c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: 
+  ataque: 0
+  defesa: 0
+  conforto: 0
+  beleza: 0
+  pontuacaoTotal: 0
+  cabeca: {fileID: 388928237}
+  pernaT: {fileID: 0}
+  pes: {fileID: 1272046719}
+  pernaF: {fileID: 247045684}
+  torso: {fileID: 1522741315}
+  mao: {fileID: 395386480}
 --- !u!1 &309346625
 GameObject:
   m_ObjectHideFlags: 0
@@ -2806,7 +2831,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 469876350}
-  - component: {fileID: 469876351}
   m_Layer: 0
   m_Name: OponenteManager
   m_TagString: Untagged
@@ -2829,24 +2853,6 @@ Transform:
   m_Father: {fileID: 67695879}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &469876351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 469876349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dd52afa778f0449b9b3fad5e91522c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nome: 
-  ataque: 0
-  defesa: 0
-  conforto: 0
-  beleza: 0
-  pontuacaoTotal: 0
 --- !u!1 &495148239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2857,6 +2863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 495148240}
   - component: {fileID: 495148241}
+  - component: {fileID: 495148242}
   m_Layer: 5
   m_Name: Character
   m_TagString: Untagged
@@ -2900,6 +2907,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495148239}
   m_CullTransparentMesh: 1
+--- !u!114 &495148242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495148239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c79853b44f32040a867e20caae479c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cabeca: {fileID: 114547755}
+  pernaT: {fileID: 0}
+  pes: {fileID: 975442969}
+  pernaF: {fileID: 976715525}
+  torso: {fileID: 617482006}
+  mao: {fileID: 1324669232}
 --- !u!1 &531821799
 GameObject:
   m_ObjectHideFlags: 0
@@ -4937,10 +4962,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: {fileID: 179799393}
-  ataque: {fileID: 0}
-  defesa: {fileID: 0}
-  conforto: {fileID: 0}
-  beleza: {fileID: 0}
+  meuAtaque: {fileID: 0}
+  ItemAtaque: {fileID: 0}
+  meudefesa: {fileID: 0}
+  itemDefesa: {fileID: 0}
+  meuConforto: {fileID: 0}
+  itemConforto: {fileID: 0}
+  meuBeleza: {fileID: 0}
+  itemBeleza: {fileID: 0}
   BuyButtonText: {fileID: 0}
   Lojas:
   - {fileID: 807287556}
@@ -8570,7 +8599,7 @@ MonoBehaviour:
   redPecaNaoFocada: 1
   numVitorias: 0
   jm: {fileID: 1792089734}
-  om: {fileID: 469876351}
+  om: {fileID: 0}
   qtm: {fileID: 0}
   GameObjectLojas:
   - {fileID: 807287556}
