@@ -193,4 +193,8 @@ public class GameManager : MonoBehaviour
         }
         return pecas[0];
     }
+
+    public void CloseStatsWindow(){
+        StatsWindow.SetActive(false);
+    }
 }

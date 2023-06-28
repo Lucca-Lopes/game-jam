@@ -54,6 +54,10 @@ public class Loja : MonoBehaviour
         }
     }
 
+    public void CloseStatsWindow(){
+        GameObject.Find("GameManager").GetComponent<GameManager>().StatsWindow.SetActive(true);
+    }
+
     //Receber Index dos items selecionados
     public void SelecionarItem(int i){
         
