@@ -15,6 +15,7 @@ public class Jurado : ScriptableObject
 
     public string nome;
     public Sprite sprite;
+    public Sprite icon;
     public Atributos atributoFavorito;
     public Atributos atributoOdiado;
     public int pontosMinVitoria;
