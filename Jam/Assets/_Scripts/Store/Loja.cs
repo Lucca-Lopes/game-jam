@@ -21,37 +21,11 @@ public class Loja : MonoBehaviour
     public GameObject Comprar_GM;
     public GameObject Equipar_GM;
     public Button button;
+    
  
 
     private void Start() {
         GerarItems();
-    }
-
-    public void BuyButton(){
-        if( _Items[itemSelecionado].GetComponent<Items>().comprado){
-            PlayerManager.Instance.TrocarRoupa(_Items[itemSelecionado].GetComponent<Items>().pecaDeRoupa);
-        }else{
-            if(PlayerManager.Instance.dinheiro >=  _Items[itemSelecionado].GetComponent<Items>().pecaDeRoupa.custo){
-                audioSystem.Buy(true);
-                _Items[itemSelecionado].GetComponent<Items>().comprado = true;
-                BuyButtonUpdate();
-            }else{
-                audioSystem.Buy(false);
-            }
-        }
-    }
-
-    public void BuyButtonUpdate(){
-        button.onClick.AddListener(BuyButton);
-        if( _Items[itemSelecionado].GetComponent<Items>().comprado){
-            Comprar_GM.SetActive(false);
-            Equipar_GM.SetActive(true);
-            //Equipar
-        }else{
-            Comprar_GM.SetActive(true);
-            Equipar_GM.SetActive(false);
-            //Comprar
-        }
     }
 
     
@@ -64,6 +38,21 @@ public class Loja : MonoBehaviour
         foreach(GameObject item in _Items){
             if(item.GetComponent<Items>().Index != itemSelecionado){
                 item.GetComponent<Items>().selecionado.sprite = item.GetComponent<Items>().normal;
+            }
+        }
+
+    }
+
+    public void BuyButtonUpdate(){
+        if(ItemDescription.lojaAtual.itemSelecionado >= 0){
+            if( ItemDescription.lojaAtual._Items[ItemDescription.lojaAtual.itemSelecionado].GetComponent<Items>().comprado){
+                ItemDescription.lojaAtual.Comprar_GM.SetActive(false);
+                ItemDescription.lojaAtual.Equipar_GM.SetActive(true);
+                //Equipar
+            }else{
+                ItemDescription.lojaAtual.Comprar_GM.SetActive(true);
+                ItemDescription.lojaAtual.Equipar_GM.SetActive(false);
+                //Comprar
             }
         }
     }
