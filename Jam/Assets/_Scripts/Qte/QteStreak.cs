@@ -10,10 +10,10 @@ public class QteStreak
     public void ResetStreak(){
         streakTaps = 0;
     }
-    public void AddStreak(int points){
+    public void AddStreak(double points){
         streakTaps++;
 
-        score += points * streakTaps;
+        PlayerManager.Instance.pontuacaoTotal += points * streakTaps;
 
         //adicionar score no score total do personagem durante a batalha
         Debug.Log($"streak: {streakTaps}");

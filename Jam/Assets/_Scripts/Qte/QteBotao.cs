@@ -87,7 +87,7 @@ public class QteBotao : MonoBehaviour
 
         if (timer >= maxTimer * 1 / 2 && timer < maxTimer * 9 / 10)
         {
-            streak.AddStreak(50);
+            streak.AddStreak(1.25);
 
             GameObject floatingTxt = Instantiate(resultTxt, this.gameObject.transform.position, Quaternion.identity, resultTxtParent.transform);
             floatingTxt.GetComponent<TMP_Text>().text = "Ótimo";
@@ -97,7 +97,7 @@ public class QteBotao : MonoBehaviour
         }
         else
         {
-            streak.AddStreak(25);
+            streak.AddStreak(0.75);
 
             GameObject floatingTxt = Instantiate(resultTxt, this.gameObject.transform.position, Quaternion.identity, resultTxtParent.transform);
             floatingTxt.GetComponent<TMP_Text>().text = "Ok";

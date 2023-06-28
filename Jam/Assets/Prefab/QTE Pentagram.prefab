@@ -28,8 +28,8 @@ RectTransform:
   m_GameObject: {fileID: 8522387248382260958}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.7999997, y: 2.7999997, z: 0.9333333}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8522387249081103800}
   - {fileID: 8522387249570405994}
@@ -89,7 +89,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reset: 0
   timelineSpeed: 1.347
-  maxTimers: 3
+  maxTimers: 2.5
   qb:
   - {fileID: 8522387249081103801}
   - {fileID: 8522387249570405995}
@@ -269,10 +269,10 @@ MonoBehaviour:
   - {fileID: 8522387249081103803}
   - {fileID: 8522387249005687158}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0.5, g: 0.115566045, b: 0.115566045, a: 1}
-  okColor: {r: 0.5188679, g: 0.5045278, b: 0.17377181, a: 1}
-  greatColor: {r: 0.2747864, g: 0.6132076, b: 0.29608354, a: 1}
+  resultTxtParent: {fileID: 8522387248382260958}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -571,10 +571,10 @@ MonoBehaviour:
   - {fileID: 8522387249570405989}
   - {fileID: 8522387249081103803}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0.5, g: 0.115566045, b: 0.115566045, a: 1}
-  okColor: {r: 0.5188679, g: 0.5045278, b: 0.17377181, a: 1}
-  greatColor: {r: 0.2747864, g: 0.6132076, b: 0.29608354, a: 1}
+  resultTxtParent: {fileID: 8522387248382260958}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -871,10 +871,10 @@ MonoBehaviour:
   previousObjects:
   - {fileID: 8522387249081103803}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0.5, g: 0.115566045, b: 0.115566045, a: 1}
-  okColor: {r: 0.5188679, g: 0.5045278, b: 0.17377181, a: 1}
-  greatColor: {r: 0.2747864, g: 0.6132076, b: 0.29608354, a: 1}
+  resultTxtParent: {fileID: 8522387248382260958}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -1172,10 +1172,10 @@ MonoBehaviour:
   - {fileID: 8522387249081103803}
   - {fileID: 8522387249570405989}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0.5, g: 0.115566045, b: 0.115566045, a: 1}
-  okColor: {r: 0.5188679, g: 0.5045278, b: 0.17377181, a: 1}
-  greatColor: {r: 0.2747864, g: 0.6132076, b: 0.29608354, a: 1}
+  resultTxtParent: {fileID: 8522387248382260958}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -1329,6 +1329,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8522387248382260959}
     m_Modifications:
+    - target: {fileID: 6101187014209619480, guid: 71631c27b90be304a83da512ea98865f, type: 3}
+      propertyPath: okColor.b
+      value: 0.047970813
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101187014209619480, guid: 71631c27b90be304a83da512ea98865f, type: 3}
+      propertyPath: okColor.g
+      value: 0.8392443
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101187014209619480, guid: 71631c27b90be304a83da512ea98865f, type: 3}
+      propertyPath: okColor.r
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101187014209619480, guid: 71631c27b90be304a83da512ea98865f, type: 3}
+      propertyPath: missColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101187014209619480, guid: 71631c27b90be304a83da512ea98865f, type: 3}
+      propertyPath: missColor.g
+      value: 0.18232048
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101187014209619480, guid: 71631c27b90be304a83da512ea98865f, type: 3}
+      propertyPath: missColor.r
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101187014209619480, guid: 71631c27b90be304a83da512ea98865f, type: 3}
+      propertyPath: greatColor.b
+      value: 0.04743683
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101187014209619480, guid: 71631c27b90be304a83da512ea98865f, type: 3}
+      propertyPath: greatColor.g
+      value: 0.7735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101187014209619480, guid: 71631c27b90be304a83da512ea98865f, type: 3}
+      propertyPath: greatColor.r
+      value: 0.06729729
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101187014209619480, guid: 71631c27b90be304a83da512ea98865f, type: 3}
+      propertyPath: resultTxtParent
+      value: 
+      objectReference: {fileID: 8522387248382260958}
     - target: {fileID: 6101187014209619481, guid: 71631c27b90be304a83da512ea98865f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
