@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
-    public static PlayerManager Instance;
+    public static PlayerManager Instance = new PlayerManager();
 
-    int dinheiro = 100;
+    public int dinheiro = 100;
     PecaDeRoupa? pecaCabeca = null;
     PecaDeRoupa? pecaTorso = null;
     PecaDeRoupa? pecaPernas = null;
@@ -34,37 +34,29 @@ public class PlayerManager : MonoBehaviour
         pontuacaoTotal = ataque + defesa + conforto + beleza;
     }
 
-    public void TrocarRoupa(GameObject roupa)
+    public void TrocarRoupa(PecaDeRoupa roupa)
     {
-        var roupaItem = roupa.GetComponent<RoupaBehavior>().roupaItem;
-        var rtRoupa = roupa.GetComponent<RectTransform>();
-
-        switch (roupaItem.tipo)
+        switch (roupa.tipo)
         {
             case PecaDeRoupa.Tipo.Cabeca:
-                TrocarAtributos(roupaItem, pecaCabeca);
-                pecaCabeca = roupaItem;
-                rtRoupa.localPosition = new(0, 370, 0);
+                TrocarAtributos(roupa, pecaCabeca);
+                pecaCabeca = roupa;
                 break;
             case PecaDeRoupa.Tipo.Torso:
-                TrocarAtributos(roupaItem, pecaTorso);
-                pecaTorso = roupaItem;
-                rtRoupa.localPosition = new(0, 70, 0);
+                TrocarAtributos(roupa, pecaTorso);
+                pecaTorso = roupa;
                 break;
             case PecaDeRoupa.Tipo.Pernas:
-                TrocarAtributos(roupaItem, pecaPernas);
-                pecaPernas = roupaItem;
-                rtRoupa.localPosition = new(0, -120, 0);
+                TrocarAtributos(roupa, pecaPernas);
+                pecaPernas = roupa;
                 break;
             case PecaDeRoupa.Tipo.Pes:
-                TrocarAtributos(roupaItem, pecaPes);
-                pecaPes = roupaItem;
-                rtRoupa.localPosition = new(0, -300, 0);
+                TrocarAtributos(roupa, pecaPes);
+                pecaPes = roupa;
                 break;
             case PecaDeRoupa.Tipo.Mao:
-                TrocarAtributos(roupaItem, pecaMao);
-                pecaMao = roupaItem;
-                rtRoupa.localPosition = new(-160, -50, 0);
+                TrocarAtributos(roupa, pecaMao);
+                pecaMao = roupa;
                 break;
         }
     }
