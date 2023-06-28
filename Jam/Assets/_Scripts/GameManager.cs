@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -41,8 +42,8 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        pontuacaoPlayer.GetComponent<TextMesh>().text = PlayerManager.Instance.pontuacaoTotal.ToString();
-        pontuacaoOponente.GetComponent<TextMesh>().text = om.pontuacaoTotal.ToString();
+        pontuacaoPlayer.GetComponent<TMP_Text>().text = PlayerManager.Instance.pontuacaoTotal.ToString();
+        pontuacaoOponente.GetComponent<TMP_Text>().text = om.pontuacaoTotal.ToString();
 
         if(qtm.QTEpermitido && qtm.numeroAtualQTE == qtm.numeroTotalQTE && podeCalcularPontos)
         {
@@ -62,6 +63,8 @@ public class GameManager : MonoBehaviour
         jm.DefinirJurados();
         DefinirOponente();
         qtm.IniciarQTE();
+        BatalhaObject.SetActive(true);
+        MenuObject.SetActive(false);
     }
 
     public void VencerPartida()
