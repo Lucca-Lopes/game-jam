@@ -4,15 +4,16 @@ using TMPro;
 
 public class Items : MonoBehaviour {
     private PecaDeRoupa pecaDeRoupa;
-    public GameObject loja;
+    public GameObject manager;
     public int Index;
+    public int lojaIndex;
 
     [Header("GameObjects")]
     public Image image;
     public TMP_Text precoText;
     public Image selecionado;
 
-    private void Awake() => loja = GameObject.Find("Loja");
+    private void Awake() => manager = GameObject.Find("GameManager");
 
     public void AtualizarItem(PecaDeRoupa roupa){
         image.sprite = roupa.sprite;
@@ -22,7 +23,9 @@ public class Items : MonoBehaviour {
     //Devolver index para loja
     //Apenas Ler no botão
     public void ItemSelecionado(){
-        loja.GetComponent<Loja>().SelecionarItem(Index);
+        //Pegar lista de lojas no game manager, depois pegar script loja e selecionar o item
+        Debug.Log("teste");
+        manager.GetComponent<GameManager>().GameObjectLojas[lojaIndex].GetComponent<Loja>().SelecionarItem(Index);
         selecionado.gameObject.SetActive(true);
     }
 

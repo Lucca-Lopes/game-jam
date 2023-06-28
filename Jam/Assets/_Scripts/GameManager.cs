@@ -26,6 +26,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] JuradosManager jm;
     [SerializeField] OponenteManager om;
 
+    [Header("Lojas")]
+    public GameObject[] GameObjectLojas;
+
     public void DefinirOponente()
     {
         //Definindo um nome para o oponente
