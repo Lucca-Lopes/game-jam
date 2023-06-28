@@ -11,28 +11,17 @@ public class OponenteManager : MonoBehaviour
     [HideInInspector] public double beleza;
     [HideInInspector] public double pontuacaoTotal;
 
-    [HideInInspector] public PecaDeRoupa? pecaCabeca;
-    [HideInInspector] public PecaDeRoupa? pecaTorso;
-    [HideInInspector] public PecaDeRoupa? pecaPernas;
-    [HideInInspector] public PecaDeRoupa? pecaPes;
-    [HideInInspector] public PecaDeRoupa? pecaMao;
+    [HideInInspector] public PecaDeRoupa? pecaCabeca { get => pecaCabeca; set => SomarAtributos(value); }
+    [HideInInspector] public PecaDeRoupa? pecaTorso { get => pecaTorso; set => SomarAtributos(value); }
+    [HideInInspector] public PecaDeRoupa? pecaPernas { get => pecaPernas; set => SomarAtributos(value); }
+    [HideInInspector] public PecaDeRoupa? pecaPes { get => pecaPes; set => SomarAtributos(value); }
+    [HideInInspector] public PecaDeRoupa? pecaMao { get => pecaMao; set => SomarAtributos(value); }
 
-    public void DefinirStatus(string nome, PecaDeRoupa pecaCabeca, PecaDeRoupa pecaTorso, PecaDeRoupa pecaPernas, PecaDeRoupa pecaPes, PecaDeRoupa pecaMao)
+    void SomarAtributos(PecaDeRoupa pecaAdicionada)
     {
-        this.nome = nome;
-        this.pecaCabeca = pecaCabeca;
-        this.pecaTorso = pecaTorso;
-        this.pecaPernas = pecaPernas;
-        this.pecaPes = pecaPes;
-        this.pecaMao = pecaMao;
-        DefinirAtributos();
-    }
-
-    void DefinirAtributos()
-    {
-        this.ataque += pecaCabeca.ataque + pecaTorso.ataque + pecaPernas.ataque + pecaPes.ataque + pecaMao.ataque;
-        this.defesa += pecaCabeca.defesa + pecaTorso.defesa + pecaPernas.defesa + pecaPes.defesa + pecaMao.defesa;
-        this.conforto += pecaCabeca.conforto + pecaTorso.conforto + pecaPernas.conforto + pecaPes.conforto + pecaMao.conforto;
-        this.beleza += pecaCabeca.beleza + pecaTorso.beleza + pecaPernas.beleza + pecaPes.beleza + pecaMao.beleza;
+        this.ataque += pecaAdicionada.ataque;
+        this.defesa += pecaAdicionada.defesa;
+        this.conforto += pecaAdicionada.conforto;
+        this.beleza += pecaAdicionada.beleza;
     }
 }
