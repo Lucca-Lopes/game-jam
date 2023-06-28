@@ -14,6 +14,10 @@ public class Items : MonoBehaviour {
     public TMP_Text precoText;
     public Image selecionado;
 
+    [Header("Purchase State")]
+    
+    public bool comprado = false;
+
 
     private void Awake() => manager = GameObject.Find("GameManager");
 
@@ -28,8 +32,7 @@ public class Items : MonoBehaviour {
     public void ItemSelecionado(){
         //Pegar lista de lojas no game manager, depois pegar script loja e selecionar o item
 
-        if(Index == 
-        manager.GetComponent<GameManager>().GameObjectLojas[lojaIndex].GetComponent<Loja>().itemSelecionado){
+        if(Index == Loja.itemSelecionado){
             Debug.Log("Fechar");
             manager.GetComponent<GameManager>().GameObjectLojas[lojaIndex].GetComponent<Loja>().SelecionarItem(-1);
             manager.GetComponent<GameManager>().StatsWindow.SetActive(false);
@@ -46,3 +49,4 @@ public class Items : MonoBehaviour {
     }
 
 }
+

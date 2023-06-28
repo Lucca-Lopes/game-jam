@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
-    public static PlayerManager Instance;
+    public static PlayerManager Instance = new PlayerManager();
 
-    public int dinheiro = 100;
+    public int dinheiro = 5;
     PecaDeRoupa? pecaCabeca = null;
     PecaDeRoupa? pecaTorso = null;
     PecaDeRoupa? pecaPernas = null;
@@ -34,32 +34,29 @@ public class PlayerManager : MonoBehaviour
         pontuacaoTotal = ataque + defesa + conforto + beleza;
     }
 
-    public void TrocarRoupa(GameObject roupa)
+    public void TrocarRoupa(PecaDeRoupa roupa)
     {
-        var roupaItem = roupa.GetComponent<RoupaBehavior>().roupaItem;
-        var rtRoupa = roupa.GetComponent<RectTransform>();
-
-        switch (roupaItem.tipo)
+        switch (roupa.tipo)
         {
             case PecaDeRoupa.Tipo.Cabeca:
-                TrocarAtributos(roupaItem, pecaCabeca);
-                pecaCabeca = roupaItem;
+                TrocarAtributos(roupa, pecaCabeca);
+                pecaCabeca = roupa;
                 break;
             case PecaDeRoupa.Tipo.Torso:
-                TrocarAtributos(roupaItem, pecaTorso);
-                pecaTorso = roupaItem;
+                TrocarAtributos(roupa, pecaTorso);
+                pecaTorso = roupa;
                 break;
             case PecaDeRoupa.Tipo.Pernas:
-                TrocarAtributos(roupaItem, pecaPernas);
-                pecaPernas = roupaItem;
+                TrocarAtributos(roupa, pecaPernas);
+                pecaPernas = roupa;
                 break;
             case PecaDeRoupa.Tipo.Pes:
-                TrocarAtributos(roupaItem, pecaPes);
-                pecaPes = roupaItem;
+                TrocarAtributos(roupa, pecaPes);
+                pecaPes = roupa;
                 break;
             case PecaDeRoupa.Tipo.Mao:
-                TrocarAtributos(roupaItem, pecaMao);
-                pecaMao = roupaItem;
+                TrocarAtributos(roupa, pecaMao);
+                pecaMao = roupa;
                 break;
         }
     }

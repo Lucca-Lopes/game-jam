@@ -26,6 +26,8 @@ public class LojaManager : MonoBehaviour {
         CheckWindow();
     }
 
+    
+
 }
 
 [System.Serializable]
