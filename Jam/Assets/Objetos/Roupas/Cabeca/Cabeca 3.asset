@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: cc6b8e89e31a048d68e21c4aff7b2b35, type: 3}
-  icon: {fileID: 21300000, guid: 4832ad72e5d4b1945accaf0fced1a236, type: 3}
+  icon: {fileID: 21300000, guid: 57ec6d7c3e571d145a7709af2185ce72, type: 3}
   nome: Cabelo com Coque Loiro
   custo: 15
   itemComprado: 0

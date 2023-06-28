@@ -58,6 +58,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void IniciarPartida()
+    {
+        //jm.DefinirJurados();
+        DefinirOponente();
+        //qtm.IniciarQTE();
+    }
+
     public void VencerPartida()
     {
         PlayerManager.Instance.dinheiro += 100;
@@ -92,35 +99,35 @@ public class GameManager : MonoBehaviour
 
         //Definindo outras roupas
         if (om.pecaCabeca == null)
-            EscolherUmaPeca(this.todasCabecas, om.pecaCabeca);
+            om.pecaCabeca = EscolherUmaPeca(todasCabecas);
         if (om.pecaTorso == null)
-            EscolherUmaPeca(this.todasTorsos, om.pecaTorso);
+            om.pecaTorso = EscolherUmaPeca(todasTorsos);
         if (om.pecaPernas == null)
-            EscolherUmaPeca(this.todasPernas, om.pecaPernas);
+            om.pecaPernas = EscolherUmaPeca(todasPernas);
         if (om.pecaPes == null)
-            EscolherUmaPeca(this.todasPes, om.pecaPes);
+            om.pecaPes = EscolherUmaPeca(todasPes);
         if (om.pecaMao == null)
-            EscolherUmaPeca(this.todasMaos, om.pecaMao);
+            om.pecaMao = EscolherUmaPeca(todasMaos);
 
     }
 
-    void EscolherUmaPeca(List<PecaDeRoupa> pecas, PecaDeRoupa? peca)
+    PecaDeRoupa EscolherUmaPeca(List<PecaDeRoupa> pecas)
     {
         var dado = Random.Range(1, 11);
-        if(dado <= precisaoOponente)
-            EscolherUmaPecaBoa(pecas, peca);
+        if (dado <= precisaoOponente)
+            return EscolherUmaPecaBoa(pecas);
         else
-            EscolherUmaPecaAleatoria(pecas, peca);
+            return EscolherUmaPecaAleatoria(pecas);
         
     }
 
-    void EscolherUmaPecaAleatoria(List<PecaDeRoupa> pecas, PecaDeRoupa? peca)
+    PecaDeRoupa EscolherUmaPecaAleatoria(List<PecaDeRoupa> pecas)
     {
         var indexPeca = Random.Range(0, pecas.Count);
-        peca = pecas[indexPeca];
+        return pecas[indexPeca];
     }
 
-    void EscolherUmaPecaBoa(List<PecaDeRoupa> pecas, PecaDeRoupa peca)
+    PecaDeRoupa EscolherUmaPecaBoa(List<PecaDeRoupa> pecas)
     {
         var indexJurado = Random.Range(0, jm.juradosAtuais.Count);
         switch (jm.juradosAtuais[indexJurado].atributoFavorito)
@@ -130,8 +137,7 @@ public class GameManager : MonoBehaviour
                 {
                     if (roupa.ataque >= (minAtributoFocado - redPecaNaoFocada))
                     {
-                        peca = roupa;
-                        return;
+                        return roupa;
                     }
                 }
                 break;
@@ -140,8 +146,7 @@ public class GameManager : MonoBehaviour
                 {
                     if (roupa.defesa >= (minAtributoFocado - redPecaNaoFocada))
                     {
-                        peca = roupa;
-                        return;
+                        return roupa;
                     }
                 }
                 break;
@@ -150,8 +155,7 @@ public class GameManager : MonoBehaviour
                 {
                     if (roupa.conforto >= (minAtributoFocado - redPecaNaoFocada))
                     {
-                        peca = roupa;
-                        return;
+                        return roupa;
                     }
                 }
                 break;
@@ -160,12 +164,12 @@ public class GameManager : MonoBehaviour
                 {
                     if (roupa.beleza >= (minAtributoFocado - redPecaNaoFocada))
                     {
-                        peca = roupa;
-                        return;
+                        return roupa;
                     }
                 }
                 break;
         }
+        return pecas[0];
     }
 
     void EscolherUmaPecaPerfeita(int indexJurado)

@@ -19,29 +19,32 @@ public class JuradosManager : MonoBehaviour
 
     public void DefinirJurados()
     {
-        if (juradosDisponiveis.Count > 3)
+        if (juradosAtuais.Count == 0)
         {
-            var jurado1 = Random.Range(0, juradosDisponiveis.Count - 1);
-
-            var jurado2 = jurado1;
-            while(jurado2 == jurado1)
+            if (juradosDisponiveis.Count > 3)
             {
-                jurado2 = Random.Range(0, juradosDisponiveis.Count - 1);
-            }
+                var jurado1 = Random.Range(0, juradosDisponiveis.Count);
 
-            var jurado3 = jurado1;
-            while(jurado3 == jurado1 || jurado3 == jurado2)
+                var jurado2 = jurado1;
+                while (jurado2 == jurado1)
+                {
+                    jurado2 = Random.Range(0, juradosDisponiveis.Count);
+                }
+
+                var jurado3 = jurado1;
+                while (jurado3 == jurado1 || jurado3 == jurado2)
+                {
+                    jurado3 = Random.Range(0, juradosDisponiveis.Count);
+                }
+
+                juradosAtuais.Add(juradosDisponiveis[jurado1]);
+                juradosAtuais.Add(juradosDisponiveis[jurado2]);
+                juradosAtuais.Add(juradosDisponiveis[jurado3]);
+            }
+            else
             {
-                jurado3 = Random.Range(0, juradosDisponiveis.Count - 1);
+                juradosAtuais = juradosDisponiveis;
             }
-
-            juradosAtuais.Add(juradosDisponiveis[jurado1]);
-            juradosAtuais.Add(juradosDisponiveis[jurado2]);
-            juradosAtuais.Add(juradosDisponiveis[jurado3]);
-        }
-        else
-        {
-            juradosAtuais = juradosDisponiveis;
         }
     }
 

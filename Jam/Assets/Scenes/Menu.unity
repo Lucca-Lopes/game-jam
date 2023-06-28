@@ -2740,7 +2740,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 522541046}
-  - component: {fileID: 522541047}
   m_Layer: 5
   m_Name: Lojas
   m_TagString: Untagged
@@ -2775,18 +2774,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &522541047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522541045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7ebd29a39d0a8940829208907bd23f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &554578600
 GameObject:
   m_ObjectHideFlags: 0
@@ -3434,27 +3421,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pecaDeRoupas:
-  - {fileID: 11400000, guid: 4c2f2a41019ea42a3b2e51c27f74fdcd, type: 2}
-  - {fileID: 11400000, guid: 5ccfc34fbcf794869b970b0f54298446, type: 2}
-  - {fileID: 11400000, guid: 02d66048f7ff7454d88564063cde0e74, type: 2}
-  - {fileID: 11400000, guid: 83536899f67574886b042d156f8553fa, type: 2}
-  - {fileID: 11400000, guid: 6d005ad28ed78404291e85e28e1bdac3, type: 2}
-  - {fileID: 11400000, guid: 4d42e4c995b0d423c98ecc0503802af4, type: 2}
-  - {fileID: 11400000, guid: 866468127d84e473db33ef41d9763db8, type: 2}
-  - {fileID: 11400000, guid: 4f49aa0ca84a6426290200cc5cc3ac1b, type: 2}
-  - {fileID: 11400000, guid: f753fe75c65414b3bb43cc443c10707b, type: 2}
-  - {fileID: 11400000, guid: 34eedae5738a64b92bf766a1c0bbe07e, type: 2}
-  - {fileID: 11400000, guid: 5312d99aa5ce04fb78d754567ce68158, type: 2}
-  - {fileID: 11400000, guid: 4c6f2d38ff10e42b3b138193aa361892, type: 2}
-  - {fileID: 11400000, guid: b4a16e7c4775449c59c6cc6d33fae8e3, type: 2}
-  - {fileID: 11400000, guid: 5943472620eae4548bb54dfb3c2f58bf, type: 2}
-  - {fileID: 11400000, guid: 25d70b3a8dd98446a920547db75febda, type: 2}
-  - {fileID: 11400000, guid: 3434ecdcffa4e4dceb259c3c3b2d556a, type: 2}
-  - {fileID: 11400000, guid: 458c017c621af4573a83379a61ebac38, type: 2}
-  - {fileID: 11400000, guid: c0427001d1fb14ed5a82df3066823e32, type: 2}
-  - {fileID: 11400000, guid: 8d898d5e37b804f21b24d146a497da86, type: 2}
-  - {fileID: 11400000, guid: 1241131b3a91443d58ed933af02a6242, type: 2}
-  - {fileID: 11400000, guid: b448b551461574b7db7c660523abacd4, type: 2}
+  - {fileID: 11400000, guid: 7b5963b06228642e5b8dbcd8cf5a23d6, type: 2}
+  - {fileID: 11400000, guid: 62017f1edd5ab40dba6ced5ae759ddb2, type: 2}
+  - {fileID: 11400000, guid: 0fb9f9ba25843419594552679206732d, type: 2}
+  - {fileID: 11400000, guid: 3b74c1420c0274e05aebd02532bc45b8, type: 2}
+  - {fileID: 11400000, guid: 5d65aaf9495e84ad2957b842d49240eb, type: 2}
+  - {fileID: 11400000, guid: 857add002ed6c4333b9e46499b1f270e, type: 2}
+  - {fileID: 11400000, guid: a1870ac3be2a346bfb8fbc2cc7b3f3d3, type: 2}
+  - {fileID: 11400000, guid: 95dd5170b541a4deabdc52430be89439, type: 2}
+  - {fileID: 11400000, guid: 01226617090b84907a88a4cfe8c55024, type: 2}
+  - {fileID: 11400000, guid: b93fded5e6bc34b26bfba5aacf090e7d, type: 2}
+  - {fileID: 11400000, guid: 96fddecc646d44db697b68fa837653f7, type: 2}
+  - {fileID: 11400000, guid: b58aec78311684db18190bd85b0c1163, type: 2}
+  - {fileID: 11400000, guid: 0c8b966e4becb488bb319b6c4616467c, type: 2}
+  - {fileID: 11400000, guid: 78928e6eb59ef47e6adaa553a5737fcd, type: 2}
+  - {fileID: 11400000, guid: 146ff4228d39446c4a4f4b17ef145d1c, type: 2}
+  - {fileID: 11400000, guid: 375a85b15e9f241f4ae7d18542907e99, type: 2}
+  - {fileID: 11400000, guid: 1bdfcb6ae0e6d44b697f023422f9dd5d, type: 2}
+  - {fileID: 11400000, guid: 4a15301e2ed5249fcaa0285c1d0fbb1e, type: 2}
+  - {fileID: 11400000, guid: d01bbdf65f87e49ccaa9af964df71b61, type: 2}
+  - {fileID: 11400000, guid: 5a8512d5de11a455fae035f9217dc855, type: 2}
   _Items:
   - {fileID: 0}
   - {fileID: 0}
@@ -9578,7 +9564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1633922874
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12019,7 +12005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2074214263
 RectTransform:
   m_ObjectHideFlags: 0
