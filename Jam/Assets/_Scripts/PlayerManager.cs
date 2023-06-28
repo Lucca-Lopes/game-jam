@@ -34,7 +34,7 @@ public class PlayerManager : MonoBehaviour
         pontuacaoTotal = ataque + defesa + conforto + beleza;
     }
 
-    public void AddRoupa(GameObject roupa)
+    public void TrocarRoupa(GameObject roupa)
     {
         var roupaItem = roupa.GetComponent<RoupaBehavior>().roupaItem;
         var rtRoupa = roupa.GetComponent<RectTransform>();
@@ -42,32 +42,48 @@ public class PlayerManager : MonoBehaviour
         switch (roupaItem.tipo)
         {
             case PecaDeRoupa.Tipo.Cabeca:
+                TrocarAtributos(roupaItem, pecaCabeca);
                 pecaCabeca = roupaItem;
                 rtRoupa.localPosition = new(0, 370, 0);
                 break;
             case PecaDeRoupa.Tipo.Torso:
+                TrocarAtributos(roupaItem, pecaTorso);
                 pecaTorso = roupaItem;
                 rtRoupa.localPosition = new(0, 70, 0);
                 break;
             case PecaDeRoupa.Tipo.Pernas:
+                TrocarAtributos(roupaItem, pecaPernas);
                 pecaPernas = roupaItem;
                 rtRoupa.localPosition = new(0, -120, 0);
                 break;
             case PecaDeRoupa.Tipo.Pes:
+                TrocarAtributos(roupaItem, pecaPes);
                 pecaPes = roupaItem;
                 rtRoupa.localPosition = new(0, -300, 0);
                 break;
             case PecaDeRoupa.Tipo.Mao:
+                TrocarAtributos(roupaItem, pecaMao);
                 pecaMao = roupaItem;
                 rtRoupa.localPosition = new(-160, -50, 0);
                 break;
         }
+    }
 
-        ataque =+ roupaItem.ataque;
-        defesa =+ roupaItem.defesa;
-        conforto =+ roupaItem.conforto;
-        beleza =+ roupaItem.beleza;
-
-        roupa.GetComponent<Button>().enabled = false;
+    void TrocarAtributos(PecaDeRoupa roupaAdd, PecaDeRoupa? roupaRemovida)
+    {
+        if(roupaRemovida == null)
+        {
+            ataque += roupaAdd.ataque;
+            defesa += roupaAdd.defesa;
+            conforto += roupaAdd.conforto;
+            beleza += roupaAdd.beleza;
+        }
+        else
+        {
+            ataque += roupaAdd.ataque - roupaRemovida.ataque;
+            defesa += roupaAdd.defesa - roupaRemovida.defesa;
+            conforto += roupaAdd.conforto - roupaRemovida.conforto;
+            beleza += roupaAdd.beleza - roupaRemovida.beleza;
+        }
     }
 }
