@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Jurado
   m_EditorClassIdentifier: 
   nome: Rei
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: c642b6b3edec442f6a75bf6e151410ff, type: 3}
+  icon: {fileID: 21300000, guid: 97cdfa28d995c404d81af654ecf65a2b, type: 3}
   atributoFavorito: 3
   atributoOdiado: 1
   pontosMinVitoria: 10

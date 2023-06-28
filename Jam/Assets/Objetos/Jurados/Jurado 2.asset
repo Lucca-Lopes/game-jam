@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Jurado 2
   m_EditorClassIdentifier: 
   nome: Nobreza
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: ff8d1b79bbfa8469c9e3033bbcb1499e, type: 3}
+  icon: {fileID: 21300000, guid: 8b841fffa73644956ad59dcf3af64b67, type: 3}
   atributoFavorito: 2
   atributoOdiado: 0
   pontosMinVitoria: 9

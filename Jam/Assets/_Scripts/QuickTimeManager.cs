@@ -4,15 +4,44 @@ using UnityEngine;
 
 public class QuickTimeManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField] List<GameObject> quickTimesDisponiveis;
+    public int numeroTotalQTE;
+
+    [HideInInspector] public bool QTEativo = false;
+    [HideInInspector] public bool QTEpermitido = false;
+    [HideInInspector] public int numeroAtualQTE = 0;
+
+    private void Update()
     {
-        
+        if(QTEpermitido && !QTEativo)
+        {
+            if (numeroAtualQTE < numeroTotalQTE)
+            {
+                numeroAtualQTE++;
+                StartCoroutine("InstanciarQTE");
+            }
+            else
+                QTEpermitido = false;
+            
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void IniciarQTE()
     {
-        
+        QTEpermitido = true;
+        numeroAtualQTE = 0;
     }
+
+    IEnumerator InstanciarQTE()
+    {
+        QTEativo = true;
+        var managerOBJ = GameObject.FindGameObjectWithTag("QTEManager");
+        var indexQTE = Random.Range(0, quickTimesDisponiveis.Count);
+        Instantiate(quickTimesDisponiveis[indexQTE], this.transform);
+        var botoesQTE = quickTimesDisponiveis[indexQTE].GetComponentsInChildren<QteBotao>();
+        yield return new WaitForSeconds(botoesQTE.Length * 2.5f + 1.0f);
+        QTEativo = false;
+    }
+
 }
