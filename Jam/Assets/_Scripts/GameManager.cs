@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour
     public GameObject botaoDerrota;
     public GameObject MenuObject;
     public GameObject BatalhaObject;
-    public GameObject TextVitorias;
 
     bool podeCalcularPontos = false;
 
@@ -60,9 +59,9 @@ public class GameManager : MonoBehaviour
 
     public void IniciarPartida()
     {
-        //jm.DefinirJurados();
+        jm.DefinirJurados();
         DefinirOponente();
-        //qtm.IniciarQTE();
+        qtm.IniciarQTE();
     }
 
     public void VencerPartida()
@@ -72,7 +71,6 @@ public class GameManager : MonoBehaviour
         BatalhaObject.SetActive(false);
         botaoVitoria.SetActive(false);
         numVitorias++;
-        TextVitorias.GetComponent<TextMesh>().text = numVitorias.ToString();
     }
 
     public void PerderPartida()
@@ -81,7 +79,6 @@ public class GameManager : MonoBehaviour
         BatalhaObject.SetActive(false);
         botaoDerrota.SetActive(false);
         numVitorias = 0;
-        TextVitorias.GetComponent<TextMesh>().text = numVitorias.ToString();
     }
 
     public void DefinirOponente()
@@ -93,22 +90,16 @@ public class GameManager : MonoBehaviour
         om.nome = this.nomesOponentes[indexNome];
         nomesOponentes.RemoveAt(indexNome);
 
+        //Definindo roupas
+        om.pecaCabeca = EscolherUmaPeca(todasCabecas);
+        om.pecaTorso = EscolherUmaPeca(todasTorsos);
+        om.pecaPernas = EscolherUmaPeca(todasPernas);
+        om.pecaPes = EscolherUmaPeca(todasPes);
+        om.pecaMao = EscolherUmaPeca(todasMaos);
+
         //Definindo uma roupa perfeita para um jurado
         var indexJuradoFocado = Random.Range(0, jm.juradosAtuais.Count);
         EscolherUmaPecaPerfeita(indexJuradoFocado);
-
-        //Definindo outras roupas
-        if (om.pecaCabeca == null)
-            om.pecaCabeca = EscolherUmaPeca(todasCabecas);
-        if (om.pecaTorso == null)
-            om.pecaTorso = EscolherUmaPeca(todasTorsos);
-        if (om.pecaPernas == null)
-            om.pecaPernas = EscolherUmaPeca(todasPernas);
-        if (om.pecaPes == null)
-            om.pecaPes = EscolherUmaPeca(todasPes);
-        if (om.pecaMao == null)
-            om.pecaMao = EscolherUmaPeca(todasMaos);
-
     }
 
     PecaDeRoupa EscolherUmaPeca(List<PecaDeRoupa> pecas)

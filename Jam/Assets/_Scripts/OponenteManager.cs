@@ -38,9 +38,11 @@ public class OponenteManager : MonoBehaviour
         pontuacaoTotal = 0;
         pontuacaoTotal += ataque + defesa + conforto + beleza;
         pontuacaoTotal *= 1.25;
+        ataque = 0;
+        defesa = 0;
+        conforto = 0;
+        beleza = 0;
     }
-
-   
 
     private void Update()
     {
