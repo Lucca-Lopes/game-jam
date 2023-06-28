@@ -7,16 +7,22 @@ public class ItemDescription : MonoBehaviour {
     public TMP_Text defesa;
     public TMP_Text conforto;
     public TMP_Text beleza;
-    public GameManager gameManager;
+    public TMP_Text BuyButtonText;
+    public static Loja lojaAtual = new();
 
     public GameObject[] Lojas;
 
     public void Update(){
         foreach(GameObject loja in Lojas){
             if(loja.activeSelf){
-                PecaDeRoupa roupa = loja.GetComponent<Loja>()._Items[loja.GetComponent<Loja>().itemSelecionado].GetComponent<Items>().pecaDeRoupa;
-
-                nome.text = roupa.nome;
+                var lojaSC = loja.GetComponent<Loja>();
+                lojaAtual = lojaSC;
+                if(lojaSC.itemSelecionado >= 0){
+                    PecaDeRoupa roupa = lojaSC._Items[lojaSC.itemSelecionado].GetComponent<Items>().pecaDeRoupa;
+                    nome.text = roupa.nome;
+                    BuyButtonText.text = roupa.custo.ToString();
+                }
+                
             }
         }
     }

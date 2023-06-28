@@ -8,11 +8,12 @@ public class PlayerManager : MonoBehaviour
     public static PlayerManager Instance = new PlayerManager();
 
     public int dinheiro = 100;
-    PecaDeRoupa? pecaCabeca = null;
-    PecaDeRoupa? pecaTorso = null;
-    PecaDeRoupa? pecaPernas = null;
-    PecaDeRoupa? pecaPes = null;
-    PecaDeRoupa? pecaMao = null;
+    public PecaDeRoupa? pecaCabeca = null;
+    public PecaDeRoupa? pecaTorso = null;
+    public PecaDeRoupa? pecaPernas = null;
+    public PecaDeRoupa? pecaPes = null;
+    public PecaDeRoupa? pecaMao = null;
+    public PecaDeRoupa? pernaT = null;
 
     public double ataque = 0;
     public double defesa = 0;
