@@ -17,7 +17,7 @@ public class JuradosManager : MonoBehaviour
         DefinirJurados();
     }
 
-    void DefinirJurados()
+    public void DefinirJurados()
     {
         if (juradosDisponiveis.Count > 3)
         {
@@ -45,7 +45,7 @@ public class JuradosManager : MonoBehaviour
         }
     }
 
-    void AtribuirPontuacao()
+    public void AtribuirPontuacao()
     {
         foreach(Jurado jurado in juradosAtuais)
         {

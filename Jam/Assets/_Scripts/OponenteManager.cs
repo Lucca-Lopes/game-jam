@@ -24,4 +24,11 @@ public class OponenteManager : MonoBehaviour
         this.conforto += pecaAdicionada.conforto;
         this.beleza += pecaAdicionada.beleza;
     }
+
+    public void CalcularPontuacaoFinal()
+    {
+        pontuacaoTotal = 0;
+        pontuacaoTotal += ataque + defesa + conforto + beleza;
+        pontuacaoTotal *= 1.25;
+    }
 }

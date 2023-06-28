@@ -25,15 +25,62 @@ public class GameManager : MonoBehaviour
     [Header("Managers")]
     [SerializeField] JuradosManager jm;
     [SerializeField] OponenteManager om;
+    [SerializeField] QuickTimeManager qtm;
 
     [Header("GameObjects")]
     public GameObject[] GameObjectLojas;
     public GameObject StatsWindow;
+    public GameObject pontuacaoPlayer;
+    public GameObject pontuacaoOponente;
+    public GameObject botaoVitoria;
+    public GameObject botaoDerrota;
+    public GameObject MenuObject;
+    public GameObject BatalhaObject;
+    public GameObject TextVitorias;
 
-    
+    bool podeCalcularPontos = false;
+
+    private void Update()
+    {
+        pontuacaoPlayer.GetComponent<TextMesh>().text = PlayerManager.Instance.pontuacaoTotal.ToString();
+        pontuacaoOponente.GetComponent<TextMesh>().text = om.pontuacaoTotal.ToString();
+
+        if(qtm.QTEpermitido && qtm.numeroAtualQTE == qtm.numeroTotalQTE && podeCalcularPontos)
+        {
+            jm.AtribuirPontuacao();
+            om.CalcularPontuacaoFinal();
+            podeCalcularPontos = false;
+
+            if (PlayerManager.Instance.pontuacaoTotal >= om.pontuacaoTotal)
+                botaoVitoria.SetActive(true);
+            else
+                botaoDerrota.SetActive(true);
+        }
+    }
+
+    public void VencerPartida()
+    {
+        PlayerManager.Instance.dinheiro += 100;
+        MenuObject.SetActive(true);
+        BatalhaObject.SetActive(false);
+        botaoVitoria.SetActive(false);
+        numVitorias++;
+        TextVitorias.GetComponent<TextMesh>().text = numVitorias.ToString();
+    }
+
+    public void PerderPartida()
+    {
+        MenuObject.SetActive(true);
+        BatalhaObject.SetActive(false);
+        botaoDerrota.SetActive(false);
+        numVitorias = 0;
+        TextVitorias.GetComponent<TextMesh>().text = numVitorias.ToString();
+    }
 
     public void DefinirOponente()
     {
+        podeCalcularPontos = true;
+
         //Definindo um nome para o oponente
         var indexNome = Random.Range(0, nomesOponentes.Count);
         om.nome = this.nomesOponentes[indexNome];
