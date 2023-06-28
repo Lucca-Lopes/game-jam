@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf9638000caa4f1cb5d8ed4331919c1, type: 3}
+  m_Name: Pernas 6
+  m_EditorClassIdentifier: 
+  tipo: 2
+  sprite: {fileID: 21300000, guid: 2e3c3e137ec8649e98e52df726ae974b, type: 3}
+  icon: {fileID: 0}
+  nome: Saia Aberta Branca
+  custo: 15
+  itemComprado: 0
+  ataque: 0
+  defesa: 0
+  conforto: 0
+  beleza: 3

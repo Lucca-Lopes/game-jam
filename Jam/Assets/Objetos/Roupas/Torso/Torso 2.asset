@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf9638000caa4f1cb5d8ed4331919c1, type: 3}
+  m_Name: Torso 2
+  m_EditorClassIdentifier: 
+  tipo: 1
+  sprite: {fileID: 21300000, guid: 0728e253982d7435f9bab400ee84af71, type: 3}
+  icon: {fileID: 0}
+  nome: "Peitoral de A\xE7o Negro"
+  custo: 40
+  itemComprado: 0
+  ataque: 2
+  defesa: 4
+  conforto: 2
+  beleza: 0
