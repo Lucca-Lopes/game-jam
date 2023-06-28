@@ -27,7 +27,7 @@ public class Items : MonoBehaviour {
 
     public void AtualizarItem(PecaDeRoupa roupa){
         pecaDeRoupa = roupa;
-        image.sprite = roupa.sprite;
+        image.sprite = roupa.icon;
         precoText.text = roupa.custo.ToString();
     }
 

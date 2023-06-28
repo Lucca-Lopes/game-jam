@@ -277,11 +277,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pecaDeRoupas:
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  _Items: []
+  - {fileID: 11400000, guid: 4c2f2a41019ea42a3b2e51c27f74fdcd, type: 2}
+  - {fileID: 11400000, guid: 5ccfc34fbcf794869b970b0f54298446, type: 2}
+  - {fileID: 11400000, guid: 02d66048f7ff7454d88564063cde0e74, type: 2}
+  - {fileID: 11400000, guid: 83536899f67574886b042d156f8553fa, type: 2}
+  - {fileID: 11400000, guid: 6d005ad28ed78404291e85e28e1bdac3, type: 2}
+  - {fileID: 11400000, guid: 4d42e4c995b0d423c98ecc0503802af4, type: 2}
+  - {fileID: 11400000, guid: 866468127d84e473db33ef41d9763db8, type: 2}
+  - {fileID: 11400000, guid: 4f49aa0ca84a6426290200cc5cc3ac1b, type: 2}
+  - {fileID: 11400000, guid: f753fe75c65414b3bb43cc443c10707b, type: 2}
+  - {fileID: 11400000, guid: 34eedae5738a64b92bf766a1c0bbe07e, type: 2}
+  - {fileID: 11400000, guid: 5312d99aa5ce04fb78d754567ce68158, type: 2}
+  - {fileID: 11400000, guid: 4c6f2d38ff10e42b3b138193aa361892, type: 2}
+  - {fileID: 11400000, guid: b4a16e7c4775449c59c6cc6d33fae8e3, type: 2}
+  - {fileID: 11400000, guid: 5943472620eae4548bb54dfb3c2f58bf, type: 2}
+  - {fileID: 11400000, guid: 25d70b3a8dd98446a920547db75febda, type: 2}
+  - {fileID: 11400000, guid: 3434ecdcffa4e4dceb259c3c3b2d556a, type: 2}
+  - {fileID: 11400000, guid: 458c017c621af4573a83379a61ebac38, type: 2}
+  - {fileID: 11400000, guid: c0427001d1fb14ed5a82df3066823e32, type: 2}
+  - {fileID: 11400000, guid: 8d898d5e37b804f21b24d146a497da86, type: 2}
+  - {fileID: 11400000, guid: 1241131b3a91443d58ed933af02a6242, type: 2}
+  - {fileID: 11400000, guid: b448b551461574b7db7c660523abacd4, type: 2}
+  _Items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   audioSystem: {fileID: 586491530}
   LojaIndex: 3
   itemPrefab: {fileID: 5820251632441227830, guid: bf14e400218f1924cae6e01867969a73, type: 3}
@@ -348,7 +386,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2ec6a77d7a7bd4acc9c8d29db562d742, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7438cf8b7a22c4fa886984668b5ae0e7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -455,7 +493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4784314, g: 0.07450981, b: 0.7019608, a: 0.5882353}
+  m_Color: {r: 0.4784314, g: 0.07450981, b: 0.7019608, a: 0.3137255}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -699,7 +737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.4509804}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -759,8 +797,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 380}
-  m_SizeDelta: {x: 467.3, y: 66.761}
+  m_AnchoredPosition: {x: 130.29999, y: 322.1}
+  m_SizeDelta: {x: 602.4, y: 181.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &179799393
 MonoBehaviour:
@@ -2017,11 +2055,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pecaDeRoupas:
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  _Items: []
+  - {fileID: 11400000, guid: 4c2f2a41019ea42a3b2e51c27f74fdcd, type: 2}
+  - {fileID: 11400000, guid: 5ccfc34fbcf794869b970b0f54298446, type: 2}
+  - {fileID: 11400000, guid: 02d66048f7ff7454d88564063cde0e74, type: 2}
+  - {fileID: 11400000, guid: 83536899f67574886b042d156f8553fa, type: 2}
+  - {fileID: 11400000, guid: 6d005ad28ed78404291e85e28e1bdac3, type: 2}
+  - {fileID: 11400000, guid: 4d42e4c995b0d423c98ecc0503802af4, type: 2}
+  - {fileID: 11400000, guid: 866468127d84e473db33ef41d9763db8, type: 2}
+  - {fileID: 11400000, guid: 4f49aa0ca84a6426290200cc5cc3ac1b, type: 2}
+  - {fileID: 11400000, guid: f753fe75c65414b3bb43cc443c10707b, type: 2}
+  - {fileID: 11400000, guid: 34eedae5738a64b92bf766a1c0bbe07e, type: 2}
+  - {fileID: 11400000, guid: 5312d99aa5ce04fb78d754567ce68158, type: 2}
+  - {fileID: 11400000, guid: 4c6f2d38ff10e42b3b138193aa361892, type: 2}
+  - {fileID: 11400000, guid: b4a16e7c4775449c59c6cc6d33fae8e3, type: 2}
+  - {fileID: 11400000, guid: 5943472620eae4548bb54dfb3c2f58bf, type: 2}
+  - {fileID: 11400000, guid: 25d70b3a8dd98446a920547db75febda, type: 2}
+  - {fileID: 11400000, guid: 3434ecdcffa4e4dceb259c3c3b2d556a, type: 2}
+  - {fileID: 11400000, guid: 458c017c621af4573a83379a61ebac38, type: 2}
+  - {fileID: 11400000, guid: c0427001d1fb14ed5a82df3066823e32, type: 2}
+  - {fileID: 11400000, guid: 8d898d5e37b804f21b24d146a497da86, type: 2}
+  - {fileID: 11400000, guid: 1241131b3a91443d58ed933af02a6242, type: 2}
+  - {fileID: 11400000, guid: b448b551461574b7db7c660523abacd4, type: 2}
+  _Items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   audioSystem: {fileID: 586491530}
   LojaIndex: 4
   itemPrefab: {fileID: 5820251632441227830, guid: bf14e400218f1924cae6e01867969a73, type: 3}
@@ -2141,7 +2217,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1188.4, y: 217.6}
+  m_AnchoredPosition: {x: 1185, y: 131.1}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &531821801
@@ -2164,7 +2240,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5169396e478df1c4aa6745b85f82cfff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4c6c8981f550bf4b8c9ca5a957e1c7f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2736,7 +2812,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1189.2, y: -268.1}
+  m_AnchoredPosition: {x: 1185.7999, y: -354.6}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647638010
@@ -2759,7 +2835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c4c6c8981f550bf4b8c9ca5a957e1c7f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 129e6a073d47a124c9c0f080bca1a298, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3026,9 +3102,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pecaDeRoupas:
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
+  - {fileID: 11400000, guid: 6d49368b25b7a4debbc316c7e821a543, type: 2}
+  - {fileID: 11400000, guid: 65fb880de3a104e5a8160f5b219016d4, type: 2}
+  - {fileID: 11400000, guid: b1c555d7770bb46b1bcad8eeef087a85, type: 2}
+  - {fileID: 11400000, guid: 40c3f4ad48e664df5860225864e3885f, type: 2}
+  - {fileID: 11400000, guid: a7535ad20caba4ba091e0d3e98064e80, type: 2}
+  - {fileID: 11400000, guid: dc5146c7847184ef0a486d867ac9b6bf, type: 2}
+  - {fileID: 11400000, guid: 9fbe5aa125dcc4bf2b7b98ec52f3cc5e, type: 2}
+  - {fileID: 11400000, guid: e491b2b4547b544f5842898784e796a4, type: 2}
+  - {fileID: 11400000, guid: 2defb6c0240514f27b194b55e314e280, type: 2}
+  - {fileID: 11400000, guid: 675beaa5582004b6a99939adeed44b91, type: 2}
+  - {fileID: 11400000, guid: 6556c5c51e6e74019b651e116fea2a9c, type: 2}
+  - {fileID: 11400000, guid: c5cc0e2bb72f8406989cd5dca6a9054c, type: 2}
+  - {fileID: 11400000, guid: e1d4524379fce47b8ace0ea5368f4ad9, type: 2}
+  - {fileID: 11400000, guid: 4aa0f1ddb987b4a82a73d24eb281a031, type: 2}
+  - {fileID: 11400000, guid: 898f0a97375ba408e97052f0db76a356, type: 2}
+  - {fileID: 11400000, guid: 61381656c9c894b1c8c67c5ec62f443f, type: 2}
+  - {fileID: 11400000, guid: 66229f5b085c44ee896103fb69dadc08, type: 2}
+  - {fileID: 11400000, guid: e6961a2ed7c8640869a09ec458f63b4c, type: 2}
+  - {fileID: 11400000, guid: 3bcdb27fccb8a4fe9a478b618ec1428d, type: 2}
+  - {fileID: 11400000, guid: 270e21e6e6c564facb59fce5e7b82e80, type: 2}
+  - {fileID: 11400000, guid: 05805bbf5237d4cb4af18f5e9b0253f6, type: 2}
+  - {fileID: 11400000, guid: c41f7ff34facc4552b7331afe740e5e9, type: 2}
   _Items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   audioSystem: {fileID: 586491530}
@@ -3074,7 +3190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1189.2, y: -105.59999}
+  m_AnchoredPosition: {x: 1185.7999, y: -192.09999}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807782976
@@ -3097,7 +3213,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a44de9528f2fb134389006a43722b86b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff3aa07dab625b440a64dd6944408624, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3214,11 +3330,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pecaDeRoupas:
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  _Items: []
+  - {fileID: 11400000, guid: 61cc1d012ca9c4be2a9311fc3437dc1b, type: 2}
+  - {fileID: 11400000, guid: f48ade34c219e48d5a1c8d0b160109b6, type: 2}
+  - {fileID: 11400000, guid: 11bea29965abb4eac9639483b5dd09b6, type: 2}
+  - {fileID: 11400000, guid: fa5517b1bec4145fea97314c8c84c756, type: 2}
+  - {fileID: 11400000, guid: c81b1657abfda440797ae0872f40db90, type: 2}
+  - {fileID: 11400000, guid: bc91c0af192984e8cb4159cc241a65e5, type: 2}
+  - {fileID: 11400000, guid: b92901982efe74143995c784e5c4e2b2, type: 2}
+  - {fileID: 11400000, guid: f81cf7c7433aa427dbdca13d0f9e14cc, type: 2}
+  - {fileID: 11400000, guid: 68d8fb2976abd4626b775ea53ff6f1d1, type: 2}
+  - {fileID: 11400000, guid: 396aa33abdf5d4a08a14347d5d479006, type: 2}
+  - {fileID: 11400000, guid: aa06216b3638e44919084a75c0dc6884, type: 2}
+  - {fileID: 11400000, guid: 9bd156b32597c4c32a431400f331a104, type: 2}
+  - {fileID: 11400000, guid: 789704ffbbaf345b6b242870f4cd2324, type: 2}
+  - {fileID: 11400000, guid: 291337f56efd74d2784aaa940f6e70bf, type: 2}
+  - {fileID: 11400000, guid: 4fbcc4ca5dfd94c1eb8fc14769c5ede7, type: 2}
+  - {fileID: 11400000, guid: 29cf7b59e850540308349954b544d7ff, type: 2}
+  - {fileID: 11400000, guid: 76de282fc07474497b9ff212e8246cfc, type: 2}
+  - {fileID: 11400000, guid: 4f4d2b18b6e7f49a59992cef307545c7, type: 2}
+  - {fileID: 11400000, guid: 9e3b96b865ced4592b5bae6710d99ecb, type: 2}
+  - {fileID: 11400000, guid: f9aaadc887f394eb4a5d39fad1939b07, type: 2}
+  - {fileID: 11400000, guid: b1a4787d156654b43a4fb4e244628c02, type: 2}
+  _Items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   audioSystem: {fileID: 586491530}
   LojaIndex: 1
   itemPrefab: {fileID: 5820251632441227830, guid: bf14e400218f1924cae6e01867969a73, type: 3}
@@ -4059,7 +4213,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 89101f720d7a3c04295e452d8366e7e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 768cc106869589a4f9734a26d021674b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4440,7 +4594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1228636650
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5078,11 +5232,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pecaDeRoupas:
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  - {fileID: 11400000, guid: ca41eec80f0b34d859cb5a09325bf3be, type: 2}
-  _Items: []
+  - {fileID: 11400000, guid: 9b637046b7d6a4cfd80bc1ee0b72b406, type: 2}
+  - {fileID: 11400000, guid: 36715a5e99c754bb881c22cb7cb926fe, type: 2}
+  - {fileID: 11400000, guid: f73b2f4810bdd48ba901d5bd4def5ea1, type: 2}
+  - {fileID: 11400000, guid: 2668d437bb95249fdac0f0fc1728cfab, type: 2}
+  - {fileID: 11400000, guid: 45513d00449e644a393ec2e0136c0c52, type: 2}
+  - {fileID: 11400000, guid: dd09b3a7300234914ac765cc3e0ce29a, type: 2}
+  - {fileID: 11400000, guid: 181f578aa5ffe4a2f94af4bc81761f17, type: 2}
+  - {fileID: 11400000, guid: 3e14c3c4af792429393fdb42eaa90a5a, type: 2}
+  - {fileID: 11400000, guid: 4e5178aae0f97434faa7493f44661ba4, type: 2}
+  - {fileID: 11400000, guid: c27addaafa5cd4ef089200674f7ada9e, type: 2}
+  - {fileID: 11400000, guid: ad14e45be50154ebd96b503a2323bc75, type: 2}
+  - {fileID: 11400000, guid: 97cc75f57e1224b56bedc3fe6eca0bc8, type: 2}
+  - {fileID: 11400000, guid: 436867a9de6c54a0b81c0052916cfd56, type: 2}
+  - {fileID: 11400000, guid: 4e50c294a9aaa4f52a398b5cb7dce138, type: 2}
+  - {fileID: 11400000, guid: e4a99c7a31db644e098b2ae74979b728, type: 2}
+  - {fileID: 11400000, guid: 500a72684703048bdb8e13ac7aa41a02, type: 2}
+  - {fileID: 11400000, guid: bf9e98518f1874af2a12b581a5d8504b, type: 2}
+  - {fileID: 11400000, guid: 5d5d187281793473e9eb64579633e7ee, type: 2}
+  - {fileID: 11400000, guid: 017dd6a152bf341328821b732fafbdf6, type: 2}
+  - {fileID: 11400000, guid: e31d6b63803724abca02b53a460938af, type: 2}
+  - {fileID: 11400000, guid: e10b062c7ea324ce3b4fa36cc306e146, type: 2}
+  - {fileID: 11400000, guid: ead56b762251a48ccb2b5d23020c39b3, type: 2}
+  - {fileID: 11400000, guid: 8129b85ef8fa04caa805047096873981, type: 2}
+  _Items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   audioSystem: {fileID: 586491530}
   LojaIndex: 2
   itemPrefab: {fileID: 5820251632441227830, guid: bf14e400218f1924cae6e01867969a73, type: 3}
@@ -5910,7 +6106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1712477851
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6177,7 +6373,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1188.4, y: 54.5}
+  m_AnchoredPosition: {x: 1185, y: -32}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1783106199
@@ -6200,7 +6396,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ff3aa07dab625b440a64dd6944408624, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5169396e478df1c4aa6745b85f82cfff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

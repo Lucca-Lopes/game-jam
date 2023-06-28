@@ -16,7 +16,7 @@ public class ItemDescription : MonoBehaviour {
             if(loja.activeSelf){
                 PecaDeRoupa roupa = loja.GetComponent<Loja>()._Items[loja.GetComponent<Loja>().itemSelecionado].GetComponent<Items>().pecaDeRoupa;
 
-                nome.text = roupa.name;
+                nome.text = roupa.nome;
             }
         }
     }

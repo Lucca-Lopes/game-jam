@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: a9295f0f11d7e4c409fc562c2e5874a5, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a58a5b85a71850d41a9bd3ca7d43b95c, type: 3}
   nome: Capacete Polido
   custo: 25
   itemComprado: 0
