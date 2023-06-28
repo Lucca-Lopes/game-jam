@@ -54,9 +54,7 @@ public class Loja : MonoBehaviour
         }
     }
 
-    public void CloseStatsWindow(){
-        GameObject.Find("GameManager").GetComponent<GameManager>().StatsWindow.SetActive(true);
-    }
+    
 
     //Receber Index dos items selecionados
     public void SelecionarItem(int i){
@@ -65,7 +63,7 @@ public class Loja : MonoBehaviour
 
         foreach(GameObject item in _Items){
             if(item.GetComponent<Items>().Index != itemSelecionado){
-                item.GetComponent<Items>().selecionado.gameObject.SetActive(false);
+                item.GetComponent<Items>().selecionado.sprite = item.GetComponent<Items>().normal;
             }
         }
     }

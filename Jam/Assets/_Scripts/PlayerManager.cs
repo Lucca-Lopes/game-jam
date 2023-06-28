@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance = new PlayerManager();
 
-    public int dinheiro = 5;
+    public int dinheiro = 100;
     PecaDeRoupa? pecaCabeca = null;
     PecaDeRoupa? pecaTorso = null;
     PecaDeRoupa? pecaPernas = null;

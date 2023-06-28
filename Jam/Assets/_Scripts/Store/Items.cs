@@ -7,6 +7,10 @@ public class Items : MonoBehaviour {
     public GameObject manager;
     public int Index;
     public int lojaIndex;
+    
+    [Header("Selecao")]
+    public Sprite emSelecao;
+    public Sprite normal;
 
     [Header("GameObjects")]
     public Image image;
@@ -37,13 +41,13 @@ public class Items : MonoBehaviour {
             Debug.Log("Fechar");
             manager.GetComponent<GameManager>().GameObjectLojas[lojaIndex].GetComponent<Loja>().SelecionarItem(-1);
             manager.GetComponent<GameManager>().StatsWindow.SetActive(false);
-            selecionado.gameObject.SetActive(false);
+            selecionado.sprite = normal;
             
         }else{
             Debug.Log("Abrir");
             manager.GetComponent<GameManager>().GameObjectLojas[lojaIndex].GetComponent<Loja>().SelecionarItem(Index);
             manager.GetComponent<GameManager>().StatsWindow.SetActive(true);
-            selecionado.gameObject.SetActive(true);
+            selecionado.sprite = emSelecao;
         }
         
 

@@ -550,8 +550,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 61.140015}
-  m_SizeDelta: {x: 250, y: 250.02}
+  m_AnchoredPosition: {x: 0.6572, y: 56.7414}
+  m_SizeDelta: {x: 206.5124, y: 206.5289}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5820251631834625381
 CanvasRenderer:
@@ -581,7 +581,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 57ec6d7c3e571d145a7709af2185ce72, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a01abe4ca3074964cb5eb882d3632fa9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -645,8 +645,10 @@ MonoBehaviour:
   manager: {fileID: 0}
   Index: 0
   lojaIndex: 0
+  emSelecao: {fileID: 21300000, guid: b94b2f9124502904fb15eaba73a4d818, type: 3}
+  normal: {fileID: 21300000, guid: 887f0e870e08bc24e91a1d468ff60d6e, type: 3}
   image: {fileID: 5820251631834625380}
   button: {fileID: 7648004807674354300}
   precoText: {fileID: 5820251631441045633}
-  selecionado: {fileID: 4440887213035474523}
+  selecionado: {fileID: 5820251631139827775}
   comprado: 0
