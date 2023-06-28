@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 3
   sprite: {fileID: 21300000, guid: 9245fddccd46a43b0ae6941086d85965, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: c4626c1b411cb5547bf9fb8a2dad7ac3, type: 3}
   nome: Botinas Desgastadas
   custo: 20
   itemComprado: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   sprite: {fileID: 21300000, guid: 2e3c3e137ec8649e98e52df726ae974b, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: b77807f0ab6a2274ba6ed72ed612e6a3, type: 3}
   nome: Saia Aberta Branca
   custo: 15
   itemComprado: 0

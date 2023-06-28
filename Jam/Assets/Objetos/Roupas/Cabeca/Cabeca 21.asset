@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: df847821e8b1a4718b935bf90728e87e, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 5646ebd017f77e1419e8ff1f260f0bc5, type: 3}
   nome: Cabelo Longo Vermelho
   custo: 40
   itemComprado: 0

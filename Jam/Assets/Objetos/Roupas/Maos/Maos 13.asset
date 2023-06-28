@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: 20f83bd1c055147c187b041321305c07, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 4399ba3a3303e9a4d97f8fd2191f968e, type: 3}
   nome: Arco Ancestral
   custo: 40
   itemComprado: 0

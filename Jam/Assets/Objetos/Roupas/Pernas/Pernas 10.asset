@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   sprite: {fileID: 21300000, guid: 5f40bab44d4b845ffa62c0cfadc29abe, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 69a5fa44090910d4eb5d204e5cf344e6, type: 3}
   nome: "Cal\xE7as de Ladino"
   custo: 30
   itemComprado: 0

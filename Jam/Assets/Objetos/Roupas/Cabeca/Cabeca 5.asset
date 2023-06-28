@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: 2756057e047e847d2b2eefe9479e0879, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 96cd5416ae579ea4788a9fe25795d6a1, type: 3}
   nome: Cabelo com Coque Castanho
   custo: 20
   itemComprado: 0

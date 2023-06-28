@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: 2d4e5a9e646124ad89cc0fb0fe4c3c96, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 240ce4327d621b5499105c2d06158fc6, type: 3}
   nome: Manto Igneo
   custo: 30
   itemComprado: 0

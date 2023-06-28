@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: 2ec972be90ca442c9873858ff5a48bbd, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 21b3b009e7f6de14abf550b7ee903977, type: 3}
   nome: Vestido Longo Esmeralda
   custo: 25
   itemComprado: 0

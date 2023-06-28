@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: 6f92e9dcb80d240429ba1ff813c55c41, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 5d8757d84b1196d4c9226ddf4b716741, type: 3}
   nome: "Vestes de Alde\xE3o"
   custo: 10
   itemComprado: 0

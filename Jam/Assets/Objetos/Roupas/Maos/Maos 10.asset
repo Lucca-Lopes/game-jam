@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: 46bfe00633db44db3b85eff4a3d9d6de, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: aa45252af13cf5c4595fb0418bee9ce3, type: 3}
   nome: Arco Simples
   custo: 15
   itemComprado: 0

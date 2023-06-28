@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: ce3d2928107c94218b967360f26ffe64, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 1a5712e69e84c7a47a160abe2f7c3543, type: 3}
   nome: "P\xE1ssaros Antigos"
   custo: 10
   itemComprado: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: f9df343bf75744b7db7d4b445b655e1b, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: f25d1f17ed49cc14dab78ecaf4b87cf6, type: 3}
   nome: Cetro Congelante
   custo: 15
   itemComprado: 0

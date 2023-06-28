@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: d2781cb34d5b94e448e5a12443f67ea1, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: ef30cf4d0d1746145ad87d3be8cc7819, type: 3}
   nome: Cabelo Simples Loiro
   custo: 15
   itemComprado: 0

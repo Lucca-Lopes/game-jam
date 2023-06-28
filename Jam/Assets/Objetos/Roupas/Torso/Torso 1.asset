@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: 641c2ea97b2094294a301c6bfbaac6f0, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 68c60089fb7d08241ba622b3b452b6e3, type: 3}
   nome: Peitoral Polido
   custo: 25
   itemComprado: 0

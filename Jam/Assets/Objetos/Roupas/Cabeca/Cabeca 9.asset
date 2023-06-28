@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: 3ed70b047377a47379ae078ebacb92e0, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: c615b96186695f449bb09122da53a445, type: 3}
   nome: Manto Nevoeiro
   custo: 15
   itemComprado: 0

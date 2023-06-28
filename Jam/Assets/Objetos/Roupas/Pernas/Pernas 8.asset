@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   sprite: {fileID: 21300000, guid: 572e73305cbde42cdbf0728756aa4b7a, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 77f2fa921a5066947a7976aa47326797, type: 3}
   nome: Saia Aberta Esmeralda
   custo: 20
   itemComprado: 0

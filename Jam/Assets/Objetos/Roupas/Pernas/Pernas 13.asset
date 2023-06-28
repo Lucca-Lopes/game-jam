@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   sprite: {fileID: 21300000, guid: d282599129a0e4a0fa5b41da8041b9e9, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 073dc0d477e956e4d8d48dbe9d42589a, type: 3}
   nome: "Cal\xE7as Justas Amarelas"
   custo: 15
   itemComprado: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: 49415529f180e4744b8f0a005c7b07ee, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 5ace20bb00b69de45a72346968657e6c, type: 3}
   nome: Espada Glamurosa
   custo: 25
   itemComprado: 0

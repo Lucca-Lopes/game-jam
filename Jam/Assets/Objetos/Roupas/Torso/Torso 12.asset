@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: e6bb3f88b5c2844fc97f917e18483e5f, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a95be1cb45eb6d44894a8237a7c3db58, type: 3}
   nome: "Vestido Branqui\xE7o"
   custo: 20
   itemComprado: 0

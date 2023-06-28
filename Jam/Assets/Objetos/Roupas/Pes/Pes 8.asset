@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 3
   sprite: {fileID: 21300000, guid: 5a223f37a9c3c48319c0e8fc4eb9eb13, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: d130e6d4cf52dbf448ecaa4826a7eeb5, type: 3}
   nome: Sapatilhas Simples
   custo: 10
   itemComprado: 0

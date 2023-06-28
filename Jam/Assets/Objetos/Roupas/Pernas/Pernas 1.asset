@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   sprite: {fileID: 21300000, guid: ea1c1a4662b2e491a8e5db6270abebf9, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 06f834ec3e8c47b4e9deabc7dba3cd98, type: 3}
   nome: Saia Antiga
   custo: 10
   itemComprado: 0

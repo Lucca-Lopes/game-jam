@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: 5307bfef575724f7ca0c14d4d88530b3, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 1fb85bd83c6329d4e8e460d64047770e, type: 3}
   nome: Vestes de Mensageiro
   custo: 20
   itemComprado: 0

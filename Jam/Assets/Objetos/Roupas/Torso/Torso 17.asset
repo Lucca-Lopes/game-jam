@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: e7bd63f7a6b8d497fb0276d20be2f446, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 494456cd20e830543ae86b1eb1f54048, type: 3}
   nome: Vestido Longo Antigo
   custo: 10
   itemComprado: 0

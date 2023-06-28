@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: 2c5ec22e2e0874b0c9e3f50037c54aac, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 84d4f2c318d7ec54f816d8b07928ceab, type: 3}
   nome: "P\xE1ssaros de Ouro"
   custo: 20
   itemComprado: 0

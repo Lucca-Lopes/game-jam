@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   sprite: {fileID: 21300000, guid: ff6512d329d714433a1a4744bd5ede5d, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a95e382f6415344488a53c512f4d20cf, type: 3}
   nome: Saia Aberta Vermelha
   custo: 20
   itemComprado: 0

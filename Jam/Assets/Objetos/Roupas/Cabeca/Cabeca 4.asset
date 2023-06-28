@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: 656120bf860ba45b4b334a81099775dc, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: ea8fa5e8d1d14504bb401f6e28ce8f89, type: 3}
   nome: Cabelo com Coque Branco
   custo: 10
   itemComprado: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: 5f2fc8247bb2a4d1a99b4addc164638c, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 9ec712b3c9218084bb53dacbada1b1ed, type: 3}
   nome: Espada Simples
   custo: 20
   itemComprado: 0

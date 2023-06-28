@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: c9ac9279804294628965d8c682ecb707, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 70f68d117c2984741b183392b16fa3fe, type: 3}
   nome: Vestido Esmeralda
   custo: 10
   itemComprado: 0

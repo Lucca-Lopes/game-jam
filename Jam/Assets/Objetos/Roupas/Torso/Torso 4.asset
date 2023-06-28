@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: 02babb55d348b4d97bb5e94114858238, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 7e84f598603f18f449c4b69de057752f, type: 3}
   nome: Vestes Noturnas
   custo: 15
   itemComprado: 0

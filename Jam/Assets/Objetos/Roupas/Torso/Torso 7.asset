@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: 12413a859280044eb8ca0780c97b7a12, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 0186ae72ef20dae4ebd316279d8fc863, type: 3}
   nome: "Armadura Prism\xE1tica"
   custo: 35
   itemComprado: 0

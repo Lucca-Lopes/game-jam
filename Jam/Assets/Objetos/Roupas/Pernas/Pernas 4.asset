@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   sprite: {fileID: 21300000, guid: 8a1535e07b861403fb139940564ec804, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 530c8acbc56c4ce47930a77d0ad24338, type: 3}
   nome: Saia Flamejante
   custo: 40
   itemComprado: 0

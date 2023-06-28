@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: 01571c303dcbe433aaf7f1a87c48f682, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 85ef281ea1d18724fb05b5d30e261c6e, type: 3}
   nome: Vestes Verdejantes
   custo: 25
   itemComprado: 0

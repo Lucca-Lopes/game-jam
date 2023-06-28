@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: a0dd1cdd15be1420c843a81bf4b694ae, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: db677a6398982464189dc6235d716c99, type: 3}
   nome: Cabelo com Coque Ruivo
   custo: 35
   itemComprado: 0

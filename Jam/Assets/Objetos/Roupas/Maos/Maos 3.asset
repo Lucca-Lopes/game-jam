@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: 2e2c0ea359f674530a007032d6f5b960, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a01abe4ca3074964cb5eb882d3632fa9, type: 3}
   nome: Escudo Invernal
   custo: 20
   itemComprado: 0

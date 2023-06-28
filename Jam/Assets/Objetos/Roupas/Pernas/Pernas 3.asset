@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   sprite: {fileID: 21300000, guid: fc6f4ef9cce2a46a9ad827be402a03bb, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: cb32c0fea347fea488f86efbe71935c6, type: 3}
   nome: Saia Verdejante
   custo: 25
   itemComprado: 0

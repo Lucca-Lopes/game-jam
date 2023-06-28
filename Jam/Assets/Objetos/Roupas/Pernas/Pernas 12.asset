@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pernas 12
   m_EditorClassIdentifier: 
   tipo: 2
-  sprite: {fileID: 21300000, guid: a663145e03e3b48e4b958f65be9a4ac4, type: 3}
+  sprite: {fileID: 21300000, guid: 41ece7bd72baa2c4898ac04fb07ca437, type: 3}
   icon: {fileID: 0}
   nome: "Cal\xE7as Sombrias"
   custo: 45

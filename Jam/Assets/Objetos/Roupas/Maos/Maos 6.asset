@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: d2af0372599d040648df7e43189311ba, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 8de19d612c6e8ce40adf0b1c067236ba, type: 3}
   nome: "Prote\xE7\xE3o Sombria"
   custo: 35
   itemComprado: 0

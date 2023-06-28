@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: a80cfc2c703a341309183ccfd0171b6d, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: c370b80633bd9a34bb44882b6e2a3bbe, type: 3}
   nome: Vestido Petrolado
   custo: 25
   itemComprado: 0

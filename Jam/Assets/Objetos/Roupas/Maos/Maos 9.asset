@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: e5454a8ef2d9d44c88648e306cfbf231, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 8c27f5527b3652b4b85b2f5da9c6b3fe, type: 3}
   nome: "L\xE2mina Sombria"
   custo: 35
   itemComprado: 0

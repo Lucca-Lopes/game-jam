@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: ab75f276dad7641329abb4621396b61f, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 86f869df79201a341a758fcee1d0aeff, type: 3}
   nome: Manto Rochoso
   custo: 30
   itemComprado: 0

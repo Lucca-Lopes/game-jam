@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 3
   sprite: {fileID: 21300000, guid: c761e1a6b08c741afa03c8d08abebc1a, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 920041516877f704fa006debc0402af7, type: 3}
   nome: Botinas Pretas
   custo: 35
   itemComprado: 0

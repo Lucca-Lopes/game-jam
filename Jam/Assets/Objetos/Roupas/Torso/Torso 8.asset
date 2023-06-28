@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: 81bb3f80229554a2e9fc17cb58cf14d5, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 370da4471e585af4a8f5c97d3e282f7a, type: 3}
   nome: Armadura Selvagem
   custo: 25
   itemComprado: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: 7df72a68d35454c538bdb6325b7eafd4, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 8aae1cef4a444244aa83bf28c3784128, type: 3}
   nome: "P\xE1ssaros de Inverno"
   custo: 25
   itemComprado: 0

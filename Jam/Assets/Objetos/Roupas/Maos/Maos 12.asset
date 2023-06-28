@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: 62bb3afcfd5f34e8c9d82eec05e67dc9, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: be50b66ee0b7a584a9fd89580ff191d9, type: 3}
   nome: Arco Glamuroso
   custo: 30
   itemComprado: 0

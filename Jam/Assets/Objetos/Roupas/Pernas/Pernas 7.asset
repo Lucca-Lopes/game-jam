@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   sprite: {fileID: 21300000, guid: 7776f4f58c5de4d23a1289024997abf9, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 5f8f535731a2b1547a1a2256ea505165, type: 3}
   nome: Saia Aberta Preta
   custo: 25
   itemComprado: 0

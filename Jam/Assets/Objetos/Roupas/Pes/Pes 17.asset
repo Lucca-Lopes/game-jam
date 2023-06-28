@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 3
   sprite: {fileID: 21300000, guid: c2058fb82872a4b40a224294c817f6b9, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 8aae1cef4a444244aa83bf28c3784128, type: 3}
   nome: "Cal\xE7ados Leves Azuis"
   custo: 15
   itemComprado: 0

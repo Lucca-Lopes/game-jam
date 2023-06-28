@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: 0728e253982d7435f9bab400ee84af71, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 5a491193de5813a4f807a9ba5180744c, type: 3}
   nome: "Peitoral de A\xE7o Negro"
   custo: 40
   itemComprado: 0

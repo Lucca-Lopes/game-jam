@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: 335bd81fb6b7d4162aecfa915978fb1c, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 5120925536727b342a458602e6500a64, type: 3}
   nome: Vestido Longo Vermelho
   custo: 20
   itemComprado: 0

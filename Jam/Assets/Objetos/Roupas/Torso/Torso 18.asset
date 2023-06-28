@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: cf9ac2195e6ca4caf9c35fbc428bea5c, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a242ef025a0b833448c2cffe6d2b394c, type: 3}
   nome: Vestido Longo Preto
   custo: 20
   itemComprado: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: a4dff44c4ec0e44e39fd4d14256cdc03, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 188fc9987b3f47a4782dbe2d789f7d1d, type: 3}
   nome: Manto Celestial
   custo: 25
   itemComprado: 0

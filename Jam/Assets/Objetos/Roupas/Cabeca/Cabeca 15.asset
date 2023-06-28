@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: 7e4a1dbaa9d884681924c1a404290dc9, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 27335818520f1524394083f52b6ba7c4, type: 3}
   nome: Cabelo Simples Preto
   custo: 30
   itemComprado: 0

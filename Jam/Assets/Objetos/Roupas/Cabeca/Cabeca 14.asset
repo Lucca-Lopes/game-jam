@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 0
   sprite: {fileID: 21300000, guid: 0e33a6c47d42044018fb87713074cef2, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 08d85d6182573a440a6c362c1cd79534, type: 3}
   nome: Cabelo Simples Castanho
   custo: 25
   itemComprado: 0

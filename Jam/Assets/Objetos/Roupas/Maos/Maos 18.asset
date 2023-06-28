@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: e4da911fc84ff411580ad6a83584d079, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: b808f91151c98674387a249c1deef38f, type: 3}
   nome: "P\xE1ssaros de Ametista"
   custo: 35
   itemComprado: 0

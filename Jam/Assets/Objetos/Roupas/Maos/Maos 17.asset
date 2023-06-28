@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: 4cf8206bb841141b199037a3af9b7062, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 29fbeba63d10c584eb740c967206de24, type: 3}
   nome: Companheiros Ancestrais
   custo: 30
   itemComprado: 0

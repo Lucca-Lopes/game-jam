@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   sprite: {fileID: 21300000, guid: 0b7fb988c10a94298a19c488629ebf4a, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 9d05a18dc258cbc4b9d95787210f5ffb, type: 3}
   nome: "Cal\xE7as de Paladino Real"
   custo: 40
   itemComprado: 0

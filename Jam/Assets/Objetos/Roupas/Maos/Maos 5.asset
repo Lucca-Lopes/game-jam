@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 4
   sprite: {fileID: 21300000, guid: 480c0e0a2291743e6a52806b2145fbd5, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a0e5ec1571599f545bc94a3aa17fd6b3, type: 3}
   nome: Escudo Antigo
   custo: 15
   itemComprado: 0

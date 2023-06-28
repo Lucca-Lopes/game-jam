@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 1
   sprite: {fileID: 21300000, guid: fc3937eb1273447f4936a35eae3ae46b, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: f8acf310435c72e4392771473eb6e6c6, type: 3}
   nome: Vestido Azulado
   custo: 15
   itemComprado: 0
