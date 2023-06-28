@@ -164,8 +164,8 @@ RectTransform:
   m_GameObject: {fileID: 6626970075369452388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 100}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6626970075631235031}
   m_Father: {fileID: 6626970076746405366}
@@ -173,7 +173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15, y: 82}
+  m_AnchoredPosition: {x: 0, y: 30}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6626970075369452384
@@ -287,10 +287,10 @@ MonoBehaviour:
   - {fileID: 6626970076979094985}
   - {fileID: 6626970075667003725}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0, g: 0, b: 0, a: 0}
-  okColor: {r: 0, g: 0, b: 0, a: 0}
-  greatColor: {r: 0, g: 0, b: 0, a: 0}
+  resultTxtParent: {fileID: 6626970076746405365}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -466,8 +466,8 @@ RectTransform:
   m_GameObject: {fileID: 6626970075667003725}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 100}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6626970075332605790}
   m_Father: {fileID: 6626970076746405366}
@@ -475,7 +475,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15, y: -120}
+  m_AnchoredPosition: {x: 0, y: -225}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6626970075667003721
@@ -586,10 +586,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousObjects: []
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0, g: 0, b: 0, a: 0}
-  okColor: {r: 0, g: 0, b: 0, a: 0}
-  greatColor: {r: 0, g: 0, b: 0, a: 0}
+  resultTxtParent: {fileID: 6626970076746405365}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -900,8 +900,8 @@ RectTransform:
   m_GameObject: {fileID: 6626970076509256505}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 100}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6626970076210411787}
   m_Father: {fileID: 6626970076746405366}
@@ -909,7 +909,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 120, y: 143}
+  m_AnchoredPosition: {x: 120, y: 150}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6626970076509256501
@@ -1024,10 +1024,10 @@ MonoBehaviour:
   - {fileID: 6626970075667003725}
   - {fileID: 6626970075369452388}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0, g: 0, b: 0, a: 0}
-  okColor: {r: 0, g: 0, b: 0, a: 0}
-  greatColor: {r: 0, g: 0, b: 0, a: 0}
+  resultTxtParent: {fileID: 6626970076746405365}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -1057,7 +1057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6626970076746405366
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1067,8 +1067,8 @@ RectTransform:
   m_GameObject: {fileID: 6626970076746405365}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.7999997, y: 2.7999997, z: 2.7999997}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6626970075667003722}
   - {fileID: 6626970076979094982}
@@ -1131,7 +1131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reset: 0
   timelineSpeed: 1.392
-  maxTimers: 3
+  maxTimers: 2.5
   qb:
   - {fileID: 6626970075667003726}
   - {fileID: 6626970076979094986}
@@ -1188,8 +1188,8 @@ RectTransform:
   m_GameObject: {fileID: 6626970076839262618}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 100}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6626970076872323456}
   m_Father: {fileID: 6626970076746405366}
@@ -1197,7 +1197,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -140, y: 141}
+  m_AnchoredPosition: {x: -120, y: 150}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6626970076839262614
@@ -1310,10 +1310,10 @@ MonoBehaviour:
   - {fileID: 6626970075667003725}
   - {fileID: 6626970076979094985}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0, g: 0, b: 0, a: 0}
-  okColor: {r: 0, g: 0, b: 0, a: 0}
-  greatColor: {r: 0, g: 0, b: 0, a: 0}
+  resultTxtParent: {fileID: 6626970076746405365}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -1354,8 +1354,8 @@ RectTransform:
   m_GameObject: {fileID: 6626970076869072315}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 100}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6626970076923019853}
   m_Father: {fileID: 6626970076746405366}
@@ -1363,7 +1363,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 132, y: -10}
+  m_AnchoredPosition: {x: 120, y: -100}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6626970076869072304
@@ -1479,10 +1479,10 @@ MonoBehaviour:
   - {fileID: 6626970075369452388}
   - {fileID: 6626970076509256505}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0, g: 0, b: 0, a: 0}
-  okColor: {r: 0, g: 0, b: 0, a: 0}
-  greatColor: {r: 0, g: 0, b: 0, a: 0}
+  resultTxtParent: {fileID: 6626970076746405365}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -1793,8 +1793,8 @@ RectTransform:
   m_GameObject: {fileID: 6626970076979094985}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 100}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6626970076347673669}
   m_Father: {fileID: 6626970076746405366}
@@ -1802,7 +1802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -161, y: -12}
+  m_AnchoredPosition: {x: -120, y: -100}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6626970076979094981
@@ -1914,10 +1914,10 @@ MonoBehaviour:
   previousObjects:
   - {fileID: 6626970075667003725}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0, g: 0, b: 0, a: 0}
-  okColor: {r: 0, g: 0, b: 0, a: 0}
-  greatColor: {r: 0, g: 0, b: 0, a: 0}
+  resultTxtParent: {fileID: 6626970076746405365}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1

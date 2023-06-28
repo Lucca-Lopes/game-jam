@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Pernas 16
   m_EditorClassIdentifier: 
   tipo: 2
-  sprite: {fileID: 21300000, guid: 5bf3cc6cc8dc24060b25dc48e0ae2956, type: 3}
+  sprite: {fileID: 21300000, guid: e8f279f6a169f47d3bc90ba6264b7586, type: 3}
   icon: {fileID: 0}
-  nome: Saia Baixa Azul
-  custo: 15
+  nome: "Cal\xE7as Abotoadas Brancas"
+  custo: 20
   itemComprado: 0
-  ataque: 0
-  defesa: 0
-  conforto: 1
-  beleza: 2
+  ataque: 2
+  defesa: 2
+  conforto: 0
+  beleza: 0

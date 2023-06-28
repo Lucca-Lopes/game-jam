@@ -149,10 +149,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousObjects: []
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0.5019608, g: 0.11372549, b: 0.11372549, a: 1}
-  okColor: {r: 0.5176471, g: 0.5058824, b: 0.17254902, a: 1}
-  greatColor: {r: 0.27450982, g: 0.6117647, b: 0.29803923, a: 1}
+  resultTxtParent: {fileID: 917334570223445305}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -450,10 +450,10 @@ MonoBehaviour:
   - {fileID: 917334568676370631}
   - {fileID: 917334570425155103}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0.5019608, g: 0.11372549, b: 0.11372549, a: 1}
-  okColor: {r: 0.5176471, g: 0.5058824, b: 0.17254902, a: 1}
-  greatColor: {r: 0.27450982, g: 0.6117647, b: 0.29803923, a: 1}
+  resultTxtParent: {fileID: 917334570223445305}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -628,8 +628,8 @@ RectTransform:
   m_GameObject: {fileID: 917334570223445305}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2.7999997, y: 2.7999997, z: 2.7999997}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 917334568676370626}
   - {fileID: 917334570425155098}
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reset: 0
   timelineSpeed: 1.392
-  maxTimers: 3
+  maxTimers: 2.5
   qb:
   - {fileID: 917334568676370630}
   - {fileID: 917334570425155102}
@@ -1000,10 +1000,10 @@ MonoBehaviour:
   previousObjects:
   - {fileID: 917334568676370631}
   resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
-  resultTxtParent: {fileID: 0}
-  missColor: {r: 0.5019608, g: 0.11372549, b: 0.11372549, a: 1}
-  okColor: {r: 0.5176471, g: 0.5058824, b: 0.17254902, a: 1}
-  greatColor: {r: 0.27450982, g: 0.6117647, b: 0.29803923, a: 1}
+  resultTxtParent: {fileID: 917334570223445305}
+  missColor: {r: 0.9622642, g: 0.18232048, b: 0, a: 1}
+  okColor: {r: 0.9245283, g: 0.8392443, b: 0.047970813, a: 1}
+  greatColor: {r: 0.06729729, g: 0.7735849, b: 0.04743683, a: 1}
   maxTimer: 5
   timer: 0
   speed: 1
