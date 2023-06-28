@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Jurado 3
   m_EditorClassIdentifier: 
   nome: Escudeiro
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: f447e303a7a8447d58993851398b1902, type: 3}
+  icon: {fileID: 21300000, guid: 149d381e1f1ef4d2586a509cd161de4a, type: 3}
   atributoFavorito: 1
   atributoOdiado: 2
   pontosMinVitoria: 9

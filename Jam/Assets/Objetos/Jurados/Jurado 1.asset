@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Jurado 1
   m_EditorClassIdentifier: 
   nome: Guerreiro
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: d7bfe86bec0ba46f2934adb10747726d, type: 3}
+  icon: {fileID: 21300000, guid: 6a94fff0e3f884dc98ce760cf0a5622a, type: 3}
   atributoFavorito: 0
   atributoOdiado: 3
   pontosMinVitoria: 9
