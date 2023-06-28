@@ -286,6 +286,11 @@ MonoBehaviour:
   - {fileID: 6626970076839262618}
   - {fileID: 6626970076979094985}
   - {fileID: 6626970075667003725}
+  resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
+  resultTxtParent: {fileID: 0}
+  missColor: {r: 0, g: 0, b: 0, a: 0}
+  okColor: {r: 0, g: 0, b: 0, a: 0}
+  greatColor: {r: 0, g: 0, b: 0, a: 0}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -580,6 +585,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   previousObjects: []
+  resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
+  resultTxtParent: {fileID: 0}
+  missColor: {r: 0, g: 0, b: 0, a: 0}
+  okColor: {r: 0, g: 0, b: 0, a: 0}
+  greatColor: {r: 0, g: 0, b: 0, a: 0}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -1013,6 +1023,11 @@ MonoBehaviour:
   - {fileID: 6626970076979094985}
   - {fileID: 6626970075667003725}
   - {fileID: 6626970075369452388}
+  resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
+  resultTxtParent: {fileID: 0}
+  missColor: {r: 0, g: 0, b: 0, a: 0}
+  okColor: {r: 0, g: 0, b: 0, a: 0}
+  greatColor: {r: 0, g: 0, b: 0, a: 0}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -1042,7 +1057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6626970076746405366
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1294,6 +1309,11 @@ MonoBehaviour:
   previousObjects:
   - {fileID: 6626970075667003725}
   - {fileID: 6626970076979094985}
+  resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
+  resultTxtParent: {fileID: 0}
+  missColor: {r: 0, g: 0, b: 0, a: 0}
+  okColor: {r: 0, g: 0, b: 0, a: 0}
+  greatColor: {r: 0, g: 0, b: 0, a: 0}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -1458,6 +1478,11 @@ MonoBehaviour:
   - {fileID: 6626970075667003725}
   - {fileID: 6626970075369452388}
   - {fileID: 6626970076509256505}
+  resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
+  resultTxtParent: {fileID: 0}
+  missColor: {r: 0, g: 0, b: 0, a: 0}
+  okColor: {r: 0, g: 0, b: 0, a: 0}
+  greatColor: {r: 0, g: 0, b: 0, a: 0}
   maxTimer: 5
   timer: 0
   speed: 1
@@ -1888,6 +1913,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previousObjects:
   - {fileID: 6626970075667003725}
+  resultTxt: {fileID: 5016467205980090054, guid: 4b218920eb92f7a47998968640aaa749, type: 3}
+  resultTxtParent: {fileID: 0}
+  missColor: {r: 0, g: 0, b: 0, a: 0}
+  okColor: {r: 0, g: 0, b: 0, a: 0}
+  greatColor: {r: 0, g: 0, b: 0, a: 0}
   maxTimer: 5
   timer: 0
   speed: 1

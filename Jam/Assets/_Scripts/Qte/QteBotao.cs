@@ -7,6 +7,8 @@ using TMPro;
 public class QteBotao : MonoBehaviour
 {
     [SerializeField] List<GameObject> previousObjects;
+    [SerializeField] GameObject resultTxt, resultTxtParent;
+    [SerializeField] Color missColor, okColor, greatColor;
     public float maxTimer, timer = 0;
     [Range(0, 1)]
     [SerializeField] float speed;
@@ -48,8 +50,14 @@ public class QteBotao : MonoBehaviour
         }
         if (timer >= maxTimer)
         {
-
             streak.ResetStreak();
+            if (button.IsInteractable())
+            {
+                GameObject floatingTxt = Instantiate(resultTxt, this.gameObject.transform.position, Quaternion.identity, resultTxtParent.transform);
+                floatingTxt.GetComponent<TMP_Text>().text = "Perdeu!";
+                floatingTxt.GetComponent<TMP_Text>().color = missColor;
+                Destroy(floatingTxt, 0.5f);
+            }
             button.interactable = false;
         }
     }
@@ -58,7 +66,6 @@ public class QteBotao : MonoBehaviour
 
     public void Tap()
     {
-        print("tapeou");
         button.interactable = false;
         img.color = disappear;
         txt.color = disappear;
@@ -68,7 +75,6 @@ public class QteBotao : MonoBehaviour
         {
             if (po.activeSelf && po.GetComponent<Button>().IsInteractable())
             {
-                print($"found active one");
                 foundActivePo = true;
                 po.GetComponent<QteBotao>().timer = maxTimer;
             }
@@ -79,13 +85,24 @@ public class QteBotao : MonoBehaviour
             foundActivePo = false;
         }
 
-        if (timer >= maxTimer * 1 / 2 && timer < maxTimer * 3 / 4)
+        if (timer >= maxTimer * 1 / 2 && timer < maxTimer * 9 / 10)
         {
             streak.AddStreak(50);
+
+            GameObject floatingTxt = Instantiate(resultTxt, this.gameObject.transform.position, Quaternion.identity, resultTxtParent.transform);
+            floatingTxt.GetComponent<TMP_Text>().text = "Ótimo";
+            floatingTxt.GetComponent<TMP_Text>().color = greatColor;
+            Destroy(floatingTxt, 0.5f);
+
         }
         else
         {
             streak.AddStreak(25);
+
+            GameObject floatingTxt = Instantiate(resultTxt, this.gameObject.transform.position, Quaternion.identity, resultTxtParent.transform);
+            floatingTxt.GetComponent<TMP_Text>().text = "Ok";
+            floatingTxt.GetComponent<TMP_Text>().color = okColor;
+            Destroy(floatingTxt, 0.5f);
         }
     }
 }
