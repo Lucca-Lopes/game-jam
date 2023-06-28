@@ -645,5 +645,6 @@ MonoBehaviour:
   Index: 0
   lojaIndex: 0
   image: {fileID: 5820251631834625380}
+  button: {fileID: 7648004807674354300}
   precoText: {fileID: 5820251631441045633}
   selecionado: {fileID: 4440887213035474523}

@@ -26,8 +26,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] JuradosManager jm;
     [SerializeField] OponenteManager om;
 
-    [Header("Lojas")]
+    [Header("GameObjects")]
     public GameObject[] GameObjectLojas;
+    public GameObject StatsWindow;
+
+    
 
     public void DefinirOponente()
     {

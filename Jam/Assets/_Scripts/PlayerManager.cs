@@ -7,7 +7,7 @@ public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance;
 
-    int dinheiro = 100;
+    public int dinheiro = 100;
     PecaDeRoupa? pecaCabeca = null;
     PecaDeRoupa? pecaTorso = null;
     PecaDeRoupa? pecaPernas = null;
@@ -44,27 +44,22 @@ public class PlayerManager : MonoBehaviour
             case PecaDeRoupa.Tipo.Cabeca:
                 TrocarAtributos(roupaItem, pecaCabeca);
                 pecaCabeca = roupaItem;
-                rtRoupa.localPosition = new(0, 370, 0);
                 break;
             case PecaDeRoupa.Tipo.Torso:
                 TrocarAtributos(roupaItem, pecaTorso);
                 pecaTorso = roupaItem;
-                rtRoupa.localPosition = new(0, 70, 0);
                 break;
             case PecaDeRoupa.Tipo.Pernas:
                 TrocarAtributos(roupaItem, pecaPernas);
                 pecaPernas = roupaItem;
-                rtRoupa.localPosition = new(0, -120, 0);
                 break;
             case PecaDeRoupa.Tipo.Pes:
                 TrocarAtributos(roupaItem, pecaPes);
                 pecaPes = roupaItem;
-                rtRoupa.localPosition = new(0, -300, 0);
                 break;
             case PecaDeRoupa.Tipo.Mao:
                 TrocarAtributos(roupaItem, pecaMao);
                 pecaMao = roupaItem;
-                rtRoupa.localPosition = new(-160, -50, 0);
                 break;
         }
     }
