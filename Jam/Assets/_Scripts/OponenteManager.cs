@@ -12,11 +12,11 @@ public class OponenteManager : MonoBehaviour
     [HideInInspector] public double beleza;
     [HideInInspector] public double pontuacaoTotal;
 
-    [HideInInspector] public PecaDeRoupa? pecaCabeca { get => pecaCabeca; set => SomarAtributos(value); }
-    [HideInInspector] public PecaDeRoupa? pecaTorso { get => pecaTorso; set => SomarAtributos(value); }
-    [HideInInspector] public PecaDeRoupa? pecaPernas { get => pecaPernas; set => SomarAtributos(value); }
-    [HideInInspector] public PecaDeRoupa? pecaPes { get => pecaPes; set => SomarAtributos(value); }
-    [HideInInspector] public PecaDeRoupa? pecaMao { get => pecaMao; set => SomarAtributos(value); }
+    [HideInInspector] public PecaDeRoupa pecaCabeca { get => pecaCabeca; set => SomarAtributos(value); }
+    [HideInInspector] public PecaDeRoupa pecaTorso { get => pecaTorso; set => SomarAtributos(value); }
+    [HideInInspector] public PecaDeRoupa pecaPernas { get => pecaPernas; set => SomarAtributos(value); }
+    [HideInInspector] public PecaDeRoupa pecaPes { get => pecaPes; set => SomarAtributos(value); }
+    [HideInInspector] public PecaDeRoupa pecaMao { get => pecaMao; set => SomarAtributos(value); }
 
     public Image cabeca;
     public Image pernaT;

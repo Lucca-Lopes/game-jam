@@ -8,12 +8,12 @@ public class PlayerManager : MonoBehaviour
     public static PlayerManager Instance = new PlayerManager();
 
     public int dinheiro = 100;
-    public PecaDeRoupa? pecaCabeca = null;
-    public PecaDeRoupa? pecaTorso = null;
-    public PecaDeRoupa? pecaPernas = null;
-    public PecaDeRoupa? pecaPes = null;
-    public PecaDeRoupa? pecaMao = null;
-    public PecaDeRoupa? pernaT = null;
+    public PecaDeRoupa pecaCabeca = null;
+    public PecaDeRoupa pecaTorso = null;
+    public PecaDeRoupa pecaPernas = null;
+    public PecaDeRoupa pecaPes = null;
+    public PecaDeRoupa pecaMao = null;
+    public PecaDeRoupa pernaT = null;
 
     public double ataque = 0;
     public double defesa = 0;
@@ -62,7 +62,7 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
-    void TrocarAtributos(PecaDeRoupa roupaAdd, PecaDeRoupa? roupaRemovida)
+    void TrocarAtributos(PecaDeRoupa roupaAdd, PecaDeRoupa roupaRemovida)
     {
         if(roupaRemovida == null)
         {

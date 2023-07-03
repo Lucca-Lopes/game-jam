@@ -60,11 +60,12 @@ public class GameManager : MonoBehaviour
 
     public void IniciarPartida()
     {
+        BatalhaObject.SetActive(true);
+        MenuObject.SetActive(false);
         jm.DefinirJurados();
         DefinirOponente();
         qtm.IniciarQTE();
-        BatalhaObject.SetActive(true);
-        MenuObject.SetActive(false);
+        
     }
 
     public void VencerPartida()
